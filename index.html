@@ -14,7 +14,7 @@
     <meta name="keywords" content="gym, fitness, club">
 </head>
 
-<body class="homeindex">
+<body class="homeindex" onload="slide()">
     <a class="anchor slideshow" id="anchor"></a>
     <div class="header" id="navigation">
         <ul>
@@ -61,9 +61,7 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="twopartscontainer">
             <div class="part2" id="part2">
                 <div class="box">
                     <div class="content">
@@ -106,6 +104,70 @@
             </div>
         </div>
 
+        <hr class="indexhr">
+
+        <div class="part4">
+            <p id="content1">
+                1-ON-1
+            </p>
+            <p id="content2">
+                INDIVIDUAL PERSONAL TRAINING
+            </p>
+            <p id="content3">
+                2-ON-1
+            </p>
+            <p id="content4">
+                PERSONAL TRAINING
+            </p>
+            <div class="more" id="more">
+                <p>
+                    <a href="classes.html">LEARN MORE</a>
+                </p>
+            </div>
+        </div>
+
+        <hr class="indexhr">
+
+        <div class="part5">
+            <p id="content1">
+                TEAM
+            </p>
+            <p id="content2">
+                SMALL GROUP TRAINING
+            </p>
+            <div class="more" id="more">
+                <p>
+                    <a href="classes.html">LEARN MORE</a>
+                </p>
+            </div>
+        </div>
+
+        <hr class="indexhr">
+
+        <div class="part6">
+            <hr id="hr1">
+            <p id="content1">
+                CURRENT
+            </p>
+            <p id="content2">
+                PROMOTION
+            </p>
+            <hr id="hr2">
+
+            <div class="slideContainer">
+                <img class="slides w3-animate-left" src="img/summer_discount.png">
+                <img class="slides w3-animate-left" src="img/early_bird_poster.png">
+                <img class="slides w3-animate-left" src="img/group_class_poster_QR_updated.png">
+                <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)" onmouseover="pause()" onmouseout="resume()">&#10094;</button>
+                <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)" onmouseover="pause()" onmouseout="resume()">&#10095;</button>
+            </div>
+
+            <div class="more" id="more">
+                <p>
+                    <a href="joinUs.php">MORE DETAIL</a>
+                </p>
+            </div>
+        </div>
 
         <div id="slideshowButton">
             <a href="#anchor">

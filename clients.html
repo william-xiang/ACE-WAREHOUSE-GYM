@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ACE | Clients</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Quicksand|Raleway|Caveat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="shortcut icon" href="img/smalllogo.png" />
+</head>
+
+<body class="clients"  onload="slide()"  onmouseover="pause()">
+    <a class="anchor slideshow" id="anchor"></a>
+    <div class="header" id="navigation">
+        <ul>
+            <li>
+                <a href="index.html"><img class="logo" src="img/logo.png"></a>
+            </li>
+            <li>
+                <a href="classes.html">Classes</a>
+            </li>
+            <li>
+                <a href="trainers.html">Trainers</a>
+            </li>
+            <li>
+                <a  href="clients.html">Clients</a>
+            </li>
+            <li>
+                <a  href="programs.html">Programs</a>
+            </li>
+            <li>
+                <a  href="business.html">Business</a>
+            </li>
+            <li>
+                <a href="joinUs.php">Join Us</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="businessContainter">
+        <div class="clientsPart1" id="clientsPart1">
+            <ul>
+                <li>
+                    <div class="triangle-right">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="middle">
+                        <p>Body Transform</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="triangle-left">
+
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="demo">
+                <li>
+                    <img src="img/demo1.jpg">
+                </li>
+                <li>
+                    <img src="img/demo2.png">
+                </li>
+                <li>
+                    <img src="img/demo3.png">
+                </li>
+            </ul>
+        </div>
+
+        <hr class="hr">
+
+        <div class="clientsPart2" id="clientsPart2" onmouseover="pause()">
+            <div class="enjoy">
+                <img src="img/enjoy.png">
+            </div>
+            <div class="slideContainer">
+                <video class="slides w3-animate-left" src="img/v1.MP4" autoplay loop preload="auto" muted></video>
+                <video class="slides w3-animate-left" src="img/v2.MP4" autoplay loop preload="auto" muted></video>
+                <video class="slides w3-animate-left" src="img/v3.MP4" autoplay loop preload="auto" muted></video>
+                <video class="slides w3-animate-left" src="img/v4.MP4" autoplay loop preload="auto" muted></video>
+                <video class="slides w3-animate-left" src="img/v5.MP4" autoplay loop preload="auto" muted></video>
+                <video class="slides w3-animate-left" src="img/v6.MP4" autoplay loop preload="auto" muted></video>
+                <video class="slides w3-animate-left" src="img/v7.MP4" autoplay loop preload="auto" muted></video>
+                <video class="slides w3-animate-left" src="img/v8.MP4" autoplay loop preload="auto" muted></video>
+                <video class="slides w3-animate-left" src="img/v9.MP4" autoplay loop preload="auto" muted></video>
+
+                <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)" onmouseover="pause()">&#10094;</button>
+                <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)" onmouseover="pause()">&#10095;</button>
+            </div>
+        </div>
+    
+        <div id="slideshowButton">
+            <a href="#anchor">
+                <p>
+                    <span class="circle activeslide" onclick="currentSlide(1)"></span>
+                </p>
+            </a>
+            <a href="#clientsPart2">
+                <p>
+                    <span class="circle" onclick="currentSlide(2)"></span>
+                </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="author">
+            <p>Copyright &copy; 2018 ACE Warehouse Gym</p>
+        </div>
+        <div class="backtop">
+            <a href="#anchor"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>

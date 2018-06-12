@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ACE | Classes</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Quicksand|Raleway|Caveat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="shortcut icon" href="img/smalllogo.png" />
+</head>
+
+<body>
+    <a class="anchor slideshow" id="anchor"></a>
+    <div class="header" id="navigation">
+        <ul>
+            <li>
+                <a href="index.html"><img class="logo" src="img/logo.png"></a>
+            </li>
+            <li>
+                <a href="classes.html">Classes</a>
+            </li>
+            <li>
+                <a href="trainers.html">Trainers</a>
+            </li>
+            <li>
+                <a  href="clients.html">Clients</a>
+            </li>
+            <li>
+                <a  href="programs.html">Programs</a>
+            </li>
+            <li>
+                <a  href="business.html">Business</a>
+            </li>
+            <li>
+                <a href="joinUs.php">Join Us</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="classesContainter">
+        <div class="classesPart1Container">
+            <div class="classesPart1" onmouseover="overPart1()" onmouseout="outPart1()">
+                <div class="content">
+                    <div class="title">
+                        <p>Let's Get Moving</p>
+                    </div>
+                    <div class="content123">
+                        <div class="content1">
+                            <p>SMALL GROUP
+                                <br>小型团课</p>
+                        </div>
+                        <div class="content2">
+                            <p>1-ON-1
+                                <br>PERSONAL TRAINING
+                                <br>私人教练</p>
+                        </div>
+                        <div class="content3">
+                            <p>2-ON-1
+                                <br>PERSONAL TRAINING
+                                <br>双人私教</p>
+                        </div>
+                        <img src="img/border.png" alt="border" class="border1">
+                    </div>
+                    <div class="content456">
+                        <div class="content4">
+                            <p>FIT BODY BOOT CAMP</p>
+                        </div>
+                        <div class="content5">
+                            <p>TRAINER LV.1/2/3
+                                <br>(start from 60min/session)</p>
+                        </div>
+                        <div class="content6">
+                            <p>TRAINER LV.1/2/3
+                                <br>(60min/session)</p>
+                        </div>
+                        <img src="img/border.png" alt="border" class="border2">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="classesPart2" id="classesPart2">
+            <ul>
+                <li>
+                    <div class="left">
+                        <div class="title">
+                            <p>STRENGTH</p><img src="img/checkbox.png" alt="checkbox" class="img1">
+                            <p>CONDITION</p><img src="img/checkbox.png" alt="checkbox" class="img2">
+                            <p>KICK BOXING</p><img src="img/checkbox.png" alt="checkbox" class="img3">
+                        </div>
+                        <div class="detail">
+                            <p>
+                                To get a <span>FREE</span> class with our professional
+                                <br> personal trainer,
+                                <br> Scan the QR code by using your Wechat to
+                                <br> get more details!
+                                <br> OR 
+                                <div class="more" id="more">
+                                    <p>
+                                        <a href="joinUs.php">Contact Us</a>
+                                    </p>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="right">
+                        <img src="img/group_class_poster_QR_updated.png" class="poster">
+                        <img src="img/tape1.png" class="tape1">
+                        <img src="img/tape2.png" class="tape2">
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="slideshowButton">
+            <a href="#anchor">
+                <p>
+                    <span class="circle activeslide" onclick="currentSlide(1)"></span>
+                </p>
+            </a>
+            <a href="#classesPart2">
+                <p>
+                    <span class="circle" onclick="currentSlide(2)"></span>
+                </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="author">
+            <p>Copyright &copy; 2018 ACE Warehouse Gym</p>
+        </div>
+        <div class="backtop">
+            <a href="#anchor"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>

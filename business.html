@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ACE | Business</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Quicksand|Raleway|Caveat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="shortcut icon" href="img/smalllogo.png" />
+</head>
+
+<body class="business" onload="slide()">
+    <a class="anchor slideshow" id="anchor"></a>
+    <div class="header" id="navigation">
+        <ul>
+            <li>
+                <a href="index.html"><img class="logo" src="img/logo.png"></a>
+            </li>
+            <li>
+                <a href="classes.html">Classes</a>
+            </li>
+            <li>
+                <a href="trainers.html">Trainers</a>
+            </li>
+            <li>
+                <a  href="clients.html">Clients</a>
+            </li>
+            <li>
+                <a  href="programs.html">Programs</a>
+            </li>
+            <li>
+                <a  href="business.html">Business</a>
+            </li>
+            <li>
+                <a href="joinUs.php">Join Us</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="businessContainter">
+        <div class="businessPart1">
+            <div class="slideContainer">
+                <img class="slides w3-animate-left" src="img/slide1.jpg">
+                <img class="slides w3-animate-left" src="img/slide2.jpg">
+                <img class="slides w3-animate-left" src="img/slide3.jpg">
+                <img class="slides w3-animate-left" src="img/slide4.jpg">
+                <img class="slides w3-animate-left" src="img/slide5.jpg">
+                <img class="slides w3-animate-left" src="img/slide6.jpg">
+                <img class="slides w3-animate-left" src="img/slide7.jpg">
+                <img class="slides w3-animate-left" src="img/slide8.jpg">
+                <img class="slides w3-animate-left" src="img/slide9.jpg">
+                <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)" onmouseover="pause()" onmouseout="resume()">&#10094;</button>
+                <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)" onmouseover="pause()" onmouseout="resume()">&#10095;</button>
+            </div>
+        </div>
+    
+        <div class="businessPart2" id="businessPart2">
+            <ul>
+                <li>
+                    <div class="bottom businesstoggle">
+                        <p>
+                            <span class="chn">场地租赁</span>
+                            <br>
+                            <span class="eng">SPACE FOR RENT</span>
+                            <br>
+                            <span class="underscore">_______________</span>
+                            <br><span class="hide">hidden</span>
+                        </p>
+                    </div>
+                    <div class="businesstop">
+                        <p class="businesstoptext">
+                            COMING SOON
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bottom businesstoggle">
+                        <p>
+                            <span class="chn">合作推广</span>
+                            <br>
+                            <span class="eng">COOPERATION &
+                                <br>PROMOTION</span>
+                            <br>
+                            <span class="underscore">_______________</span>
+                        </p>
+                    </div>
+                    <div class="businesstop">
+                        <p class="businesstoptext">
+                            COMING SOON
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="bottom businesstoggle">
+                        <p>
+                            <span class="chn">教练招聘</span>
+                            <br>
+                            <span class="eng">JOB
+                                <br>OPPORTUNITY</span>
+                            <br>
+                            <span class="underscore">_______________</span>
+                        </p>
+                    </div>
+                    <div class="businesstop">
+                        <p class="businesstoptext">
+                            COMING SOON
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="slideshowButton">
+            <a href="#anchor">
+                <p>
+                    <span class="businesscircle businessactiveslide" onclick="currentSlide(1)"></span>
+                </p>
+            </a>
+            <a href="#businessPart2">
+                <p>
+                    <span class="businesscircle" onclick="currentSlide(2)"></span>
+                </p>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="author">
+            <p>Copyright &copy; 2018 ACE Warehouse Gym</p>
+        </div>
+        <div class="backtop">
+            <a href="#anchor"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -82,6 +82,7 @@ li.firstLetter::first-letter{
     background: url(../img/img0.jpg);
     background-attachment: fixed;
     background-size: cover;
+    background-position: 0px, 150px;
     border: solid rgba(0, 0, 0, 0) 0.1px;
 }
 
@@ -183,9 +184,7 @@ li.firstLetter::first-letter{
     padding-bottom: 1.8%;
     margin-left: auto;
     margin-right: auto;
-    background: url(../img/img5.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
 
     height: 100%;
     
@@ -209,19 +208,6 @@ li.firstLetter::first-letter{
     box-pack:center;
     box-align:center;
 }
-
-.part2 .box::after {
-    content: "";
-    background-color: rgba(0, 0, 0, 0.9);
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: 10px 10px 10px 10px;
-    position: absolute;
-    z-index: 1;   
-  }
 
 .part2 .box .content {
     width: 95%;
@@ -269,10 +255,7 @@ li.firstLetter::first-letter{
     padding-bottom: 1.8%;
     margin-left: auto;
     margin-right: auto;
-    background: url(../img/img5.jpg);
-    background-position: 0px, 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
 
     height: 100%;
     
@@ -296,19 +279,6 @@ li.firstLetter::first-letter{
     box-pack:center;
     box-align:center;
 }
-
-.part3 .box::after {
-    content: "";
-    background-color: rgba(0, 0, 0, 0.9);
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: 10px 10px 10px 10px;
-    position: absolute;
-    z-index: 1;   
-  }
 
 .part3 .box .content {
     width: 95%;
@@ -443,7 +413,6 @@ li.firstLetter::first-letter{
     background: url(../img/part4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0px, 500px;
 }
 
 .part4 #content1, .part4 #content3 {

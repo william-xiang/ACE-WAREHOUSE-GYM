@@ -41,11 +41,18 @@ $(document).ready(function(){
 
 document.addEventListener('scroll', function() {
   var circle = document.getElementsByClassName("circle");
+  var indexcircle = document.getElementsByClassName("indexcircle");
   var businesscircle = document.getElementsByClassName("businesscircle");
 
   if (circle.length != 0) {
     for (i = 0; i < circle.length; i++) {
       circle[i].className = circle[i].className.replace(" activeslide", "");
+    }
+  }
+
+  if (indexcircle.length != 0) {
+    for (i = 0; i < indexcircle.length; i++) {
+      indexcircle[i].className = indexcircle[i].className.replace(" indexactiveslide", "");
     }
   }
 
@@ -68,6 +75,19 @@ document.addEventListener('scroll', function() {
     index = 3;
   }
 
+  if(y_scroll_pos < 1330) {
+    indexindex = 1;
+  }
+  else if (y_scroll_pos >= 1330 && y_scroll_pos < 2180) {
+    indexindex = 2;
+  }
+  else if (y_scroll_pos >= 2180 && y_scroll_pos < 2680) {
+    indexindex = 3;
+  }
+  else {
+    indexindex = 4;
+  }
+
   if(y_scroll_pos < 130) {
     businessindex = 1;
   }
@@ -77,6 +97,10 @@ document.addEventListener('scroll', function() {
 
   if (businesscircle.length != 0) {
     businesscircle[businessindex - 1].className += " businessactiveslide";
+  }
+
+  if (indexcircle.length != 0) {
+    indexcircle[indexindex - 1].className += " indexactiveslide";
   }
 
   if (circle.length != 0) {

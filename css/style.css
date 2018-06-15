@@ -366,17 +366,17 @@ li.firstLetter::first-letter{
     }
 }
 
-.content {
+.homeindex .content {
     font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.7vw;
 }
 
-.content .boxtitle {
+.homeindex .content .boxtitle {
     font-family: 'Rozha One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3.5vw;
 }
 
-.content p {
+.homeindex .content p {
     height: 100%;
     
         /* Internet Explorer 10 */
@@ -1212,7 +1212,6 @@ li.firstLetter::first-letter{
     top: 170px;
     padding-top: 50px;
     visibility: hidden;
-
 }
 
 .classesPart1 .contentActive {
@@ -1248,12 +1247,10 @@ li.firstLetter::first-letter{
 
 .classesPart1 .content .content123 {
     padding-top: 10px;
-    padding-left: 10px;
     text-align: left;
 }
 
 .classesPart1 .content .content456 {
-    padding-left: 10px;
     padding-top: 60px;
 }
 
@@ -1261,9 +1258,9 @@ li.firstLetter::first-letter{
     text-align: left;
     font-family: 'Quicksand', sans-serif;
     font-size: 13px;
-    margin-left: -21px;
     float: left;
-    width: 150px;
+    width: 135px;
+    padding-left: 29px;
 }
 
 .classesPart1 .content .content2 {
@@ -1272,8 +1269,9 @@ li.firstLetter::first-letter{
     font-family: 'Quicksand', sans-serif;
     font-size: 13px;
     float: left;
-    width: 150px;
-    margin-left: 25px;
+    width: 141px;
+    padding-left: 23px;
+
 }
 
 .classesPart1 .content .content3 {
@@ -1282,7 +1280,8 @@ li.firstLetter::first-letter{
     font-family: 'Quicksand', sans-serif;
     font-size: 13px;
     float: left;
-    margin-left: 37px;
+    width: 134px;
+    padding-left: 10px;
 }
 
 .classesPart1 .content .content4 {
@@ -1291,16 +1290,18 @@ li.firstLetter::first-letter{
     font-family: 'Quicksand', sans-serif;
     font-size: 13px;
     float: left;
-    width: 150px;
+    width: 136px;
+    padding-left: 29px;
 }
 
 .classesPart1 .content .content5 {
     text-align: left;
     font-family: 'Quicksand', sans-serif;
     font-size: 13px;
-    width: 170px;
     float: left;
-    margin-left: 10px;
+    width: 141px;
+    padding-left: 23px;
+
 }
 
 .classesPart1 .content .content6 {
@@ -1309,20 +1310,21 @@ li.firstLetter::first-letter{
     font-family: 'Quicksand', sans-serif;
     font-size: 13px;
     float: left;
-    margin-left: 10px;
+    width: 134px;
+    padding-left: 10px;
 }
 
 .classesPart1 .content .border1 {
     position: absolute;
-    top: 142px;
-    left: 153px;
+    top: 143.5px;
+    left: 165px;
     height: 100px;
 }
 
 .classesPart1 .content .border2 {
     position: absolute;
-    top: 142px;
-    left: 333px;
+    top: 143.5px;
+    left: 317px;
     height: 100px;
 }
 
@@ -1919,3 +1921,5 @@ li.firstLetter::first-letter{
 .containterContact .licontainer:nth-child(2){
     margin-left: 5%;
 }
+
+

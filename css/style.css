@@ -1347,6 +1347,7 @@ li.firstLetter::first-letter{
 
 .classesPart3 {
     height: 592px;
+    width: 100%;
     background: url(../img/img7.jpg);
     background-size: cover;
     background-position: 0px -100px;
@@ -1354,31 +1355,32 @@ li.firstLetter::first-letter{
 
 .classesPart3 #part1, .classesPart3 #part2 {
     width: 49.5%;
+    height: 100%;
     float: left;
 }
 
 .classesPart3 #part1 img {
-    position: relative;
-    float: right;
-    right: 0;
     width: 90%;
+    float: right;
+    clear: both;
 }
 
 .classesPart3 .ulbutton {
-    width: 55%;
-    height: 20%;
+    float: right;
+    margin-top: 40px;
 }
 
+
 .classesPart3 #part1 ul {
-    float: left;
-    margin-top: 30px;
     font-size: 1.2em;
+    margin-right: 250px;
+    
 }
 
 .classesPart3 .more {
-    float: left;
-    margin-top: 80px;
-    margin-left: 30px;
+    float: right;
+    margin-right: 80px;
+    margin-top: -60px;
 }
 
 .classesPart3 .more a {

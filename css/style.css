@@ -1355,7 +1355,7 @@ li.firstLetter::first-letter{
 
 .classesPart3 #part1, .classesPart3 #part2 {
     width: 49.5%;
-    height: 100%;
+    height: 90%;
     float: left;
     border: solid yellow 1px;
 }
@@ -1374,13 +1374,13 @@ li.firstLetter::first-letter{
 
 .classesPart3 #part1 ul {
     font-size: 1.5vw;
-    margin-right: 250px;
+    margin-right: 200px;
     
 }
 
 .classesPart3 .more {
     float: right;
-    margin-right: 80px;
+    margin-right: 50px;
     margin-top: -60px;
 }
 

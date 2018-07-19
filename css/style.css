@@ -1372,7 +1372,7 @@ li.firstLetter::first-letter{
 
 
 .classesPart3 #part1 ul {
-    font-size: 1.2em;
+    font-size: 1.5vw;
     margin-right: 250px;
     
 }
@@ -1417,13 +1417,13 @@ li.firstLetter::first-letter{
 }
 
 .classesPart3 #part2 .title {
-    font-size: 2em;
+    font-size: 2vw;
     margin-left: 40px;
     margin-top: 40px;
 }
 
 .classesPart3 #part2 .content {
-    font-size: 1em;
+    font-size: 1.2vw;
     margin-left: 40px;
     margin-top: 40px;
 }

@@ -1357,6 +1357,7 @@ li.firstLetter::first-letter{
     width: 49.5%;
     height: 100%;
     float: left;
+    border: solid yellow 1px;
 }
 
 .classesPart3 #part1 img {

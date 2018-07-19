@@ -1346,19 +1346,18 @@ li.firstLetter::first-letter{
 }
 
 .classesPart3 {
-    border: solid red 1px;
     height: 592px;
     width: 100%;
     background: url(../img/img7.jpg);
     background-size: cover;
-    background-position: 0px -100px;
+    /* background-position: 0px -100px; */
+    overflow: hidden;
 }
 
 .classesPart3 #part1, .classesPart3 #part2 {
     width: 49.5%;
-    height: 90%;
+    height: 80%;
     float: left;
-    border: solid yellow 1px;
 }
 
 .classesPart3 #part1 img {
@@ -1369,7 +1368,7 @@ li.firstLetter::first-letter{
 
 .classesPart3 .ulbutton {
     float: right;
-    /* margin-top: 40px; */
+    margin-top: 40px;
 }
 
 

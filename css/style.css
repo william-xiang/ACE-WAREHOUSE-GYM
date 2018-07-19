@@ -1346,6 +1346,7 @@ li.firstLetter::first-letter{
 }
 
 .classesPart3 {
+    border: solid red 1px;
     height: 592px;
     width: 100%;
     background: url(../img/img7.jpg);

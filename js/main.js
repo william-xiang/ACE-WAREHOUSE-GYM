@@ -37,6 +37,32 @@ $(document).ready(function(){
     $(".businesstoggle").mouseleave(function() {
       $(".businesstop").removeClass(" activebusinesstop");
     });
+
+    var part2_1 = $("#part2_1");
+    var newpart2_1 = $("#newpart2_1");
+
+    $(".part2_1").mouseover(function() {
+      part2_1.addClass("part2_1_hide").removeClass("part2_1_show");
+      newpart2_1.addClass("newpart2_1_show").removeClass("newpart2_1_hide");
+    });
+
+    $(".part2_1").mouseleave(function() {
+      part2_1.removeClass("part2_1_hide").addClass("part2_1_show");
+      newpart2_1.removeClass("newpart2_1_show").addClass("newpart2_1_hide");
+    });  
+
+    var part2_2 = $("#part2_2");
+    var newpart2_2 = $("#newpart2_2");
+
+    $(".part2_2").mouseover(function() {
+      part2_2.addClass("part2_2_hide").removeClass("part2_2_show");
+      newpart2_2.addClass("newpart2_2_show").removeClass("newpart2_2_hide");
+    });
+
+    $(".part2_2").mouseleave(function() {
+      part2_2.removeClass("part2_2_hide").addClass("part2_2_show");
+      newpart2_2.removeClass("newpart2_2_show").addClass("newpart2_2_hide");
+    });  
   });
 
 document.addEventListener('scroll', function() {

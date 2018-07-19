@@ -1346,12 +1346,10 @@ li.firstLetter::first-letter{
 }
 
 .classesPart3 {
-    height: 592px;
+    height: 43vw;
     width: 100%;
     background: url(../img/img7.jpg);
     background-size: cover;
-    /* background-position: 0px -100px; */
-    overflow: hidden;
 }
 
 .classesPart3 #part1, .classesPart3 #part2 {

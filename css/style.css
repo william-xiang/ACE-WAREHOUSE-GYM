@@ -1353,21 +1353,25 @@ li.firstLetter::first-letter{
 }
 
 .classesPart3 #part1, .classesPart3 #part2 {
-    height: 100%;
     width: 49.5%;
     float: left;
 }
 
 .classesPart3 #part1 img {
-    height: 55%;
+    position: relative;
     float: right;
+    right: 0;
+    width: 90%;
+}
+
+.classesPart3 .ulbutton {
+    width: 55%;
+    height: 20%;
 }
 
 .classesPart3 #part1 ul {
     float: left;
-    clear: left;
     margin-top: 30px;
-    margin-left: 300px;
     font-size: 1.2em;
 }
 
@@ -1404,9 +1408,10 @@ li.firstLetter::first-letter{
 
 
 .classesPart3 #part2 img {
-    max-height: 58%;
+    width: 92%;
     float: left;
     margin-top: 40px;
+    clear: both;
 }
 
 .classesPart3 #part2 .title {

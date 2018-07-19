@@ -1428,145 +1428,56 @@ li.firstLetter::first-letter{
 }
 
 
-
 .classesPart4 {
-    height: 580px;
+    height: 35vw;
     background: url(../img/img7.jpg);
     background-size: cover;
-    background-position: 0px -100px;
 }
 
-/* .classesContainter .classesPart2 {
-    height: 600px;
-    background: url(../img/img7.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.classesPart2 .left {
-    height: 400px;
-    width: 350px;
-    padding-top: 100px;
-}
-
-.classesPart2 .left .title {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 23px;
-    line-height: 130%;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.classesPart2 .left .detail {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    line-height: 180%;
-    margin-top: 30px;
-}
-
-.classesPart2 .left .detail span {
-    font-weight: bold;
-    background-color: #ec3642;
-}
-
-.classesPart2 .left .img1 {
-    position: relative;
-    margin-top: -25px;
-    margin-right: 190px;
-    float: right;
-}
-
-.classesPart2 .left .img2 {
-    position: relative;
-    margin-top: -25px;
-    margin-right: 183px;
-    float: right;
-}
-
-.classesPart2 .left .img3 {
-    position: relative;
-    margin-top: -25px;
-    margin-right: 162px;
-    float: right;
-}
-
-.classesPart2 .right {
-    height: 400px;
-    width: 400px;
-}
-
-@-moz-document url-prefix() { 
-    .classesPart2 .right {
-        height: 400px;
-        width: 400px;
-        margin-top: 60px;
-    }
-  }
-
-.classesPart2 .right .poster {
-    width: 360px;
-    z-index: -5;
-}
-
-.classesPart2 .right .tape1 {
-    position: relative;
-    width: 100px;
+.classesPart4 #part1, .classesPart4 #part2 {
+    width: 49.5%;
+    height: 80%;
     float: left;
-    z-index: 10;
-    margin-top: -500px;
-    margin-left: -30px;
 }
 
-.classesPart2 .right .tape2 {
-    position: relative;
-    width: 100px;
+.classesPart4 #part1 img {
+    margin-top: 60px;
+    width: 93%;
     float: right;
-    z-index: 100;
-    margin-top: -500px;
-    margin-right: 10px;
+    clear: both;
 }
 
-.classesPart2 ul{
-    display:inline-block;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.classesPart2 li:nth-child(1){
-    list-style-type:none;
-    display: inline-block;
-    white-space: nowrap;
-    margin-right: 40px;
-}
-
-.classesPart2 li:nth-child(2){
-    list-style-type:none;
-    display: inline-block;
-    white-space: nowrap;
+.classesPart4 #part2 .title {
+    font-size: 2vw;
+    margin-top: 40px;
     margin-left: 40px;
 }
 
-.classesPart2 .more{
-    visibility: visible;
-    float: right;
-    position: relative;
-    margin-top: -27px;
-    margin-right: 188px;
+.classesPart4 #part2 .content {
+    font-size: 1.2vw;
+    margin-top: 20px;
+    margin-left: 40px;
 }
 
-.classesPart2 .more a {
+.classesPart4 #part2 .subcontent {
+    font-size: 1.2vw;
+}
+
+.classesPart4 .more {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.classesPart4 .more a {
     border: solid #ec3642 1px;
     border-radius: 2px;
-    padding: 5px 20px 5px 20px;
-    background-color: rgba(0, 0, 0, 0);
+    padding: 8px 35px 8px 35px;
+    background-color: #ec3642;
     color: white;
     text-decoration:none;
     cursor: pointer;
     font-family: 'Maven Pro', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 13px;
     z-index: 50;
     opacity: 1;
     -webkit-transition: 400ms;
@@ -1574,10 +1485,12 @@ li.firstLetter::first-letter{
     letter-spacing: 1px;
 }
 
-.classesPart2 .more a:hover {
-    background-color: #ec3642;
+.classesPart4 .more a:hover {
+    border: solid #b11f28 1px;
+    background-color: #b11f28;
     transition-timing-function: ease-in-out;
-} */
+}
+
 
 
 .business {

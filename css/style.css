@@ -1385,7 +1385,7 @@ li.firstLetter::first-letter{
 .classesPart3 .more a {
     border: solid #ec3642 1px;
     border-radius: 2px;
-    padding: 8px 35px 8px 35px;
+    padding: 0.6vw 2.625vw 0.6vw 2.625vw;
     margin-top: 5px;
     background-color: #ec3642;
     color: white;
@@ -1436,12 +1436,12 @@ li.firstLetter::first-letter{
 
 .classesPart4 #part1, .classesPart4 #part2 {
     width: 49.5%;
-    height: 80%;
+    height: 100%;
     float: left;
 }
 
 .classesPart4 #part1 img {
-    margin-top: 60px;
+    margin-top: 6vw;
     width: 93%;
     float: right;
     clear: both;
@@ -1449,14 +1449,14 @@ li.firstLetter::first-letter{
 
 .classesPart4 #part2 .title {
     font-size: 2vw;
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: 3vw;
+    margin-left: 3vw;
 }
 
 .classesPart4 #part2 .content {
     font-size: 1.2vw;
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 1.5vw;
+    margin-left: 3vw;
 }
 
 .classesPart4 #part2 .subcontent {
@@ -1464,14 +1464,14 @@ li.firstLetter::first-letter{
 }
 
 .classesPart4 .more {
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: 3vw;
+    margin-left: 3vw;
 }
 
 .classesPart4 .more a {
     border: solid #ec3642 1px;
     border-radius: 2px;
-    padding: 8px 35px 8px 35px;
+    padding: 0.6vw 2.625vw 0.6vw 2.625vw;
     background-color: #ec3642;
     color: white;
     text-decoration:none;

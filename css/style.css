@@ -1205,12 +1205,12 @@ li.firstLetter::first-letter{
 .classesPart1 .content {
     position: relative;
     width: 500px;
-    height: 230px;
+    height: 300px;
     border: solid white 1px;
     margin-left: auto;
     margin-right: auto;
-    top: 170px;
-    padding-top: 50px;
+    top: 150px;
+    padding-top: 20px;
     visibility: hidden;
 }
 
@@ -1245,87 +1245,44 @@ li.firstLetter::first-letter{
     padding-bottom: 10px;
 }
 
-.classesPart1 .content .content123 {
+.classesPart1 .content .content12 {
     padding-top: 10px;
     text-align: left;
 }
-
-.classesPart1 .content .content456 {
-    padding-top: 60px;
-}
-
 .classesPart1 .content .content1 {
     text-align: left;
     font-family: 'Quicksand', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     float: left;
-    width: 135px;
-    padding-left: 29px;
+    width: 235px;
+    padding-left: 45px;
 }
 
 .classesPart1 .content .content2 {
     position: relative;
     text-align: left;
     font-family: 'Quicksand', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     float: left;
     width: 141px;
     padding-left: 23px;
-
-}
-
-.classesPart1 .content .content3 {
-    position: relative;
-    text-align: left;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 13px;
-    float: left;
-    width: 134px;
-    padding-left: 10px;
-}
-
-.classesPart1 .content .content4 {
-    position: relative;
-    text-align: left;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 13px;
-    float: left;
-    width: 136px;
-    padding-left: 29px;
-}
-
-.classesPart1 .content .content5 {
-    text-align: left;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 13px;
-    float: left;
-    width: 141px;
-    padding-left: 23px;
-
-}
-
-.classesPart1 .content .content6 {
-    position: relative;
-    text-align: left;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 13px;
-    float: left;
-    width: 134px;
-    padding-left: 10px;
+    clear: right;
 }
 
 .classesPart1 .content .border1 {
     position: absolute;
-    top: 143.5px;
-    left: 165px;
-    height: 100px;
+    top: 110px;
+    left: 255px;
+    height: 160px;
 }
 
-.classesPart1 .content .border2 {
+.classesPart1 .content .bottomtitle {
     position: absolute;
-    top: 143.5px;
-    left: 317px;
-    height: 100px;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
 }
 
 .classesPart2 {

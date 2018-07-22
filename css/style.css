@@ -93,13 +93,13 @@ li.firstLetter::first-letter{
     margin-bottom: 80px;
 
     -webkit-animation-name: buttons; 
-    -webkit-animation-duration: 2s; 
+    -webkit-animation-duration: 3s; 
     -webkit-animation-fill-mode: forwards;
     -moz-animation-name: buttons; 
-    -moz-animation-duration: 2s; 
+    -moz-animation-duration: 3s; 
     -moz-animation-fill-mode: forwards;
     animation-name: buttons;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
@@ -116,12 +116,22 @@ li.firstLetter::first-letter{
 
 .part1Container .welcome {
     font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     margin-top: 20px;
 }
 
 .part1Container .try {
     font-size: 2.5em;
     margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.part1Container .try .blue {
+    color: #2a98f7;
+    font-weight: bolder;
 }
 
 .part1Container #hr {
@@ -137,6 +147,9 @@ li.firstLetter::first-letter{
 .part1Container .book {
     font-size: 1.5em;
     margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
 }
 
 .part1Container .more a {
@@ -150,7 +163,6 @@ li.firstLetter::first-letter{
     cursor: pointer;
     font-family: 'Maven Pro', sans-serif;
     font-size: 15px;
-    font-weight: bold;
     z-index: 50;
     opacity: 1;
     -webkit-transition: 400ms;
@@ -278,6 +290,7 @@ li.firstLetter::first-letter{
     margin-right: 180px;
     left: 0;
     top: 0;
+    font-family: Roboto, sans-serif;
 }
 
 #newpart2_1, #newpart2_2 {
@@ -287,6 +300,7 @@ li.firstLetter::first-letter{
     width: 360px;
     height: 360px;
     font-size: 1.5em;
+    font-family: Roboto, sans-serif;
 }
 
 .part2_1 .part2_1_hide, .part2_1 .newpart2_1_hide, .part2_2 .part2_2_hide, .part2_2 .newpart2_2_hide {
@@ -330,6 +344,7 @@ li.firstLetter::first-letter{
     position: absolute;
     left: 0;
     top: 0;
+    font-family: Roboto, sans-serif;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -1323,6 +1338,8 @@ li.firstLetter::first-letter{
 
 .classesPart2 .change {
     font-size: 2em;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
 }
 
 .classesPart2 .classesPart2hr {
@@ -1354,6 +1371,7 @@ li.firstLetter::first-letter{
     margin-top: 20px;
     color: gray;
     font-size: 1.3em;
+    font-family: Raleway, sans-serif;
 }
 
 .classesPart3 {
@@ -1361,6 +1379,7 @@ li.firstLetter::first-letter{
     width: 100%;
     background: url(../img/img7.jpg);
     background-size: cover;
+
 }
 
 .classesPart3 #part1, .classesPart3 #part2 {
@@ -1382,9 +1401,9 @@ li.firstLetter::first-letter{
 
 
 .classesPart3 #part1 ul {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     margin-right: 200px;
-    
+    font-family: Roboto, sans-serif;
 }
 
 .classesPart3 .more {
@@ -1427,15 +1446,19 @@ li.firstLetter::first-letter{
 }
 
 .classesPart3 #part2 .title {
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin-left: 40px;
     margin-top: 3vw;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
 }
 
 .classesPart3 #part2 .content {
     font-size: 1.2vw;
     margin-left: 40px;
     margin-top: 3vw;
+    font-family: Roboto, sans-serif;
 }
 
 
@@ -1459,19 +1482,29 @@ li.firstLetter::first-letter{
 }
 
 .classesPart4 #part2 .title {
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin-top: 3vw;
     margin-left: 3vw;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
 }
 
 .classesPart4 #part2 .content {
-    font-size: 1.2vw;
     margin-top: 1.5vw;
     margin-left: 3vw;
 }
 
+.classesPart4 #part2 .subtitle {
+    font-size: 1.3vw;
+    font-family: Roboto, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+}
+
 .classesPart4 #part2 .subcontent {
-    font-size: 1.2vw;
+    font-size: 1vw;
+    font-family: Roboto, sans-serif;
 }
 
 .classesPart4 .more {

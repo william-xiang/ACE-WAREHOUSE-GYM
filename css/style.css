@@ -255,6 +255,7 @@ li.firstLetter::first-letter{
 
 .part2_1 {
     float: left;
+    position: relative;
     margin-right: 60px;
     background: url("../img/part2_1.jpg");
     background-size: cover;
@@ -263,6 +264,7 @@ li.firstLetter::first-letter{
 
 .part2_2 {
     float: left;
+    position: relative;
     background: url("../img/part2_2.jpg");
     background-size: cover;
     background-position: 0px -50px;
@@ -273,6 +275,9 @@ li.firstLetter::first-letter{
     width: 360px;
     height: 360px;
     font-size: 4em;
+    margin-right: 180px;
+    left: 0;
+    top: 0;
 }
 
 #newpart2_1, #newpart2_2 {
@@ -295,6 +300,9 @@ li.firstLetter::first-letter{
     animation-name: part2_1_hide;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -319,6 +327,9 @@ li.firstLetter::first-letter{
     animation-name: part2_1_show;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 /* Safari 4.0 - 8.0 */

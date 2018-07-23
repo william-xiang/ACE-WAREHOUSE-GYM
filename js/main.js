@@ -64,17 +64,17 @@ $(document).ready(function(){
       newpart2_2.removeClass("newpart2_2_show").addClass("newpart2_2_hide");
     });
     
-    var title_pos = $("#title").position();
-    var details_pos = $("#details").position();
-    var diff1 = details_pos.top - title_pos.top + 150;
-    $("#classesPart4").css("height", diff1);
+    // var title_pos = $("#title").position();
+    // var details_pos = $("#details").position();
+    // var diff1 = details_pos.top - title_pos.top + 150;
+    // $("#classesPart4").css("height", diff1);
 
-    var img1_pos = $("#img1").position();
-    var img2_pos = $("#img2").position();
-    var img_height = $("#img2").height();
-    var diff2 = img2_pos.top - img1_pos.top + img_height + 80;
-    console.log(diff2);
-    $("#classesPart3").css("height", diff2);
+    // var img1_pos = $("#img1").position();
+    // var img2_pos = $("#img2").position();
+    // var img_height = $("#img2").height();
+    // var diff2 = img2_pos.top - img1_pos.top + img_height + 80;
+    // console.log(diff2);
+    // $("#classesPart3").css("height", diff2);
   });
 
 document.addEventListener('scroll', function() {

@@ -90,9 +90,9 @@
 
         <hr class="classeshr">
 
-        <div class="classesPart3">
+        <div class="classesPart3" id="classesPart3">
             <div id="part1">
-                <img src="img/classes_img1.png" alt="img1">
+                <img src="img/classes_img1.png" alt="img1" id="img1">
                 <div class="ulbutton">
                     <ul>
                         <li>
@@ -126,18 +126,18 @@
                     current body condition and future goal.
                 </p>
 
-                <img src="img/classes_img2.jpg" alt="img2">
+                <img src="img/classes_img2.jpg" alt="img2" id="img2">
             </div>
         </div>
 
         <hr class="classeshr">
 
-        <div class="classesPart4">
+        <div class="classesPart4" id = "classesPart4">
             <div id="part1">
                 <img src="img/classes_part4.jpg" alt="part4">
             </div>
             <div id="part2">
-                <p class="title">TEAM</p>
+                <p class="title" id="title">TEAM</p>
                 <p class="content">
                     <span class="subtitle">FIT BODY BOOT CAMP</span>
                     <span class="subcontent">
@@ -155,7 +155,7 @@
                         trainer in the right way takes more than just putting the <br>
                         time at the gym alone.                        
                 </p>
-                <div class="more" id="more">
+                <div class="more" id="details">
                     <p>
                         <a href="joinUs.php">Details</a>
                     </p>
@@ -166,12 +166,17 @@
         <div id="slideshowButton">
             <a href="#anchor">
                 <p>
-                    <span class="circle activeslide" onclick="currentSlide(1)"></span>
+                    <span class="classescircle classesactiveslide" onclick="currentSlide(1)"></span>
                 </p>
             </a>
             <a href="#classesPart2">
                 <p>
-                    <span class="circle" onclick="currentSlide(2)"></span>
+                    <span class="classescircle" onclick="currentSlide(2)"></span>
+                </p>
+            </a>
+            <a href="#classesPart4">
+                <p>
+                    <span class="classescircle" onclick="currentSlide(3)"></span>
                 </p>
             </a>
         </div>

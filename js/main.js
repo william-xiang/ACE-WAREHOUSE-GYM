@@ -62,13 +62,26 @@ $(document).ready(function(){
     $(".part2_2").mouseleave(function() {
       part2_2.removeClass("part2_2_hide").addClass("part2_2_show");
       newpart2_2.removeClass("newpart2_2_show").addClass("newpart2_2_hide");
-    });  
+    });
+    
+    var title_pos = $("#title").position();
+    var details_pos = $("#details").position();
+    var diff1 = details_pos.top - title_pos.top + 150;
+    $("#classesPart4").css("height", diff1);
+
+    var img1_pos = $("#img1").position();
+    var img2_pos = $("#img2").position();
+    var img_height = $("#img2").height();
+    var diff2 = img2_pos.top - img1_pos.top + img_height + 100;
+    console.log(diff2);
+    $("#classesPart3").css("height", diff2);
   });
 
 document.addEventListener('scroll', function() {
   var circle = document.getElementsByClassName("circle");
   var indexcircle = document.getElementsByClassName("indexcircle");
   var businesscircle = document.getElementsByClassName("businesscircle");
+  var classescircle = document.getElementsByClassName("classescircle");
 
   if (circle.length != 0) {
     for (i = 0; i < circle.length; i++) {
@@ -85,6 +98,12 @@ document.addEventListener('scroll', function() {
   if (businesscircle.length != 0) {
     for (i = 0; i < businesscircle.length; i++) {
       businesscircle[i].className = businesscircle[i].className.replace(" businessactiveslide", "");
+    }
+  }
+
+  if (classescircle.length != 0) {
+    for (i = 0; i < classescircle.length; i++) {
+      classescircle[i].className = classescircle[i].className.replace(" classesactiveslide", "");
     }
   }
 
@@ -121,12 +140,26 @@ document.addEventListener('scroll', function() {
     businessindex = 2;
   }
 
+  if(y_scroll_pos < 630) {
+    classesindex = 1;
+  }
+  else if (y_scroll_pos >= 630 && y_scroll_pos < 1180) {
+    classesindex = 2;
+  }
+  else {
+    classesindex = 3;
+  }
+
   if (businesscircle.length != 0) {
     businesscircle[businessindex - 1].className += " businessactiveslide";
   }
 
   if (indexcircle.length != 0) {
     indexcircle[indexindex - 1].className += " indexactiveslide";
+  }
+
+  if (classescircle.length != 0) {
+    classescircle[classesindex - 1].className += " classesactiveslide";
   }
 
   if (circle.length != 0) {

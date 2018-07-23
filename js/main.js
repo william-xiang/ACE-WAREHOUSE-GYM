@@ -72,7 +72,7 @@ $(document).ready(function(){
     var img1_pos = $("#img1").position();
     var img2_pos = $("#img2").position();
     var img_height = $("#img2").height();
-    var diff2 = img2_pos.top - img1_pos.top + img_height + 60;
+    var diff2 = img2_pos.top - img1_pos.top + img_height + 80;
     console.log(diff2);
     $("#classesPart3").css("height", diff2);
   });

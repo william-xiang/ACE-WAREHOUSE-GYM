@@ -1384,6 +1384,7 @@ li.firstLetter::first-letter{
     float: left;
     margin-top: 3vw;
     clear: both;
+    overflow: hidden;
 }
 
 .classesPart3 #part2 .title {

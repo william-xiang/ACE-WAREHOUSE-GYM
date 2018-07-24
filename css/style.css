@@ -1315,15 +1315,10 @@ li.firstLetter::first-letter{
     width: 100%;
     background: url(../img/img7.jpg);
     background-size: cover;
+    overflow: hidden;
 }
 
-.classesPart3 #part1 {
-    width: 50%;
-    height: 80%;
-    float: left;
-}
-
-.classesPart3 #part2 {
+.classesPart3 #part1, .classesPart3 #part2 {
     width: 50%;
     height: 80%;
     float: left;
@@ -1384,7 +1379,6 @@ li.firstLetter::first-letter{
     float: left;
     margin-top: 3vw;
     clear: both;
-    overflow: hidden;
 }
 
 .classesPart3 #part2 .title {

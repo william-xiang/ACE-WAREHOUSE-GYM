@@ -1311,7 +1311,7 @@ li.firstLetter::first-letter{
 }
 
 .classesPart3 {
-    height: 48vw;
+    height: 46.8vw;
     width: 100%;
     background: url(../img/img7.jpg);
     background-size: cover;
@@ -1410,14 +1410,14 @@ li.firstLetter::first-letter{
 }
 
 .classesPart4 #part1, .classesPart4 #part2 {
-    width: 49.5%;
+    width: 50%;
     height: 100%;
     float: left;
 }
 
 .classesPart4 #part1 img {
-    margin-top: 6vw;
-    width: 93%;
+    /* margin-top: 2vw; */
+    width: 100%;
     float: right;
     clear: both;
 }

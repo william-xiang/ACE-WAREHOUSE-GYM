@@ -111,7 +111,7 @@ li.firstLetter::first-letter{
     #navigation a.icon {
         display: block;
         float: right;
-        margin-left: 45%;
+        margin-left: 42%;
         font-size: 3vw;
     }
 }

@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>ACE | JoinUs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/calendar.css" />
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Quicksand|Raleway|Rozha+One" rel="stylesheet">

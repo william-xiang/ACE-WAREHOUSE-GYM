@@ -79,9 +79,8 @@ $(document).ready(function(){
 
     var footer = document.getElementById("footer");
     console.log(window.innerHeight);
-    console.log(window.scrollY);
     console.log(document.body.offsetHeight)
-    if (window.innerHeight === document.body.offsetHeight) {
+    if (window.innerHeight >= document.body.offsetHeight) {
       footer.className = "footer";
     }
     else {

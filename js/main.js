@@ -1,4 +1,3 @@
-
 window.onscroll = function(ev) {
   var footer = document.getElementById("footer");
 
@@ -78,8 +77,6 @@ $(document).ready(function(){
     });
 
     var footer = document.getElementById("footer");
-    console.log(window.innerHeight);
-    console.log(document.body.offsetHeight)
     if (window.innerHeight >= document.body.offsetHeight) {
       footer.className = "footer";
     }
@@ -228,9 +225,9 @@ function outPart1() {
 
 
 //slider in business
-function slide() {
-  carousel();
-}
+// function slide() {
+//   carousel();
+// }
 
 var slideIndex = 0;
 var x = document.getElementsByClassName("slides");
@@ -272,6 +269,16 @@ function resume() {
 window.onclick = function(event) {
   if (event.target.className != "businesstoptext") {
     $(".businesstop").removeClass(" activebusinesstop");
+  }
+}
+
+function response() {
+  var isDisplay =  $("#headerInvisible").css("display");
+  if (isDisplay === "none") {
+    $("#headerInvisible").css("display", "block");
+  }
+  else {
+    $("#headerInvisible").css("display", "none");
   }
 }
 

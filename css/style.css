@@ -85,7 +85,7 @@ li.firstLetter::first-letter{
 
 .logo {
     margin-top: 5px;
-    width: 4vw;
+    height: 4vw;
 }
 
 @media screen and (max-width: 600px) {
@@ -103,10 +103,16 @@ li.firstLetter::first-letter{
         float: left;
         margin-right: 42%;
     }
+
+    #navigation a:first-child img {
+        height: 6vw;
+    }
+
     #navigation a.icon {
         display: block;
         float: right;
         margin-left: 45%;
+        font-size: 3vw;
     }
 }
 

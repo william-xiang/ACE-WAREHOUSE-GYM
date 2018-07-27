@@ -80,7 +80,6 @@ li.firstLetter::first-letter{
 .container {
     position: relative;
     width: 100%;
-    border: solid yellow 1px;
 }
 
 .part1 {
@@ -89,6 +88,8 @@ li.firstLetter::first-letter{
     background-size: cover;
     background-position: 0px, 150px;
     border: solid rgba(0, 0, 0, 0) 0.1px;
+    width: 100%;
+    border: solid yellow 1px;
 }
 
 .part1Container {
@@ -674,7 +675,7 @@ li.firstLetter::first-letter{
 
 .author {
     position: absolute;
-    left: 300px;
+    left: 20%;
     margin-top: 25px;
     margin-bottom: 20px;
 }
@@ -686,7 +687,7 @@ li.firstLetter::first-letter{
 .backtop {
     text-align: right;
     position: absolute;
-    right: 300px;
+    right: 20%;
     margin-top: 18px;
 }
 

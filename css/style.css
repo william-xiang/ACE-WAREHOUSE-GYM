@@ -98,12 +98,16 @@ li.firstLetter::first-letter{
 #headerInvisible a {
     display: block;
     color: white;
-    margin-top: 0.5vw;
+    margin-top: 1.5vw;
     text-decoration: none;
     font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:1.1vw;
+    font-size: 3vw;
 	color:white;
     cursor:pointer;
+}
+
+#headerInvisible a:first-child {
+    margin-top: 0.5vw;
 }
 
 

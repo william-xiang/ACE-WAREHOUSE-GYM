@@ -48,7 +48,7 @@ body {
 
 #navigation a{
     display: block;
-    width: 12vw;
+    border: solid yellow 1px;
     text-decoration:none;
     font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:1.2vw;
@@ -57,6 +57,14 @@ body {
     cursor:pointer;
     -webkit-transition: 300ms;
     transition: 300ms;
+}
+
+#navigation a:not(:first-child) {
+    margin-left: 3vw;
+}
+
+#navigation a:not(:last-child) {
+    margin-right: 3vw;
 }
 
 li.firstLetter::first-letter{
@@ -89,7 +97,6 @@ li.firstLetter::first-letter{
     background-position: 0px, 150px;
     border: solid rgba(0, 0, 0, 0) 0.1px;
     width: 100%;
-    border: solid yellow 1px;
 }
 
 .part1Container {

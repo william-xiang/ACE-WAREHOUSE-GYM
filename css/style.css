@@ -1491,7 +1491,7 @@ li.firstLetter::first-letter{
     background: url(../img/business.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 

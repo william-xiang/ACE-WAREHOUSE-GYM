@@ -208,14 +208,14 @@
         </ul>
     </div>
 
-    <div class="footer">
+    <div class="footer invisible" id="footer">
         <div class="author">
-            <p>&copy; 2018 by Cherrina Hong.</p>
+            <p>Copyright &copy; 2018 ACE Warehouse Gym</p>
         </div>
         <div class="backtop">
             <a href="#anchor"><i class="fas fa-angle-up"></i></a>
         </div>
-    </div>    
+    </div>  
 </body>
 
 </html>

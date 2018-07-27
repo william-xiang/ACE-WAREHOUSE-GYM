@@ -1,3 +1,16 @@
+
+window.onscroll = function(ev) {
+  var footer = document.getElementById("footer");
+
+  if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+    footer.className = "footer";
+  }
+  else {
+    footer.className += " invisible";
+  }
+
+};
+
 $(document).ready(function(){
     $("a").on('click', function(event) {
   
@@ -63,6 +76,17 @@ $(document).ready(function(){
       part2_2.removeClass("part2_2_hide").addClass("part2_2_show");
       newpart2_2.removeClass("newpart2_2_show").addClass("newpart2_2_hide");
     });
+
+    var footer = document.getElementById("footer");
+    console.log(window.innerHeight);
+    console.log(window.scrollY);
+    console.log(document.body.offsetHeight)
+    if (window.innerHeight === document.body.offsetHeight) {
+      footer.className = "footer";
+    }
+    else {
+      footer.className += " invisible";
+    }
   });
 
 document.addEventListener('scroll', function() {

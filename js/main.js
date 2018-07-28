@@ -225,9 +225,9 @@ function outPart1() {
 
 
 //slider in business
-// function slide() {
-//   carousel();
-// }
+function slide() {
+  carousel();
+}
 
 var slideIndex = 0;
 var x = document.getElementsByClassName("slides");

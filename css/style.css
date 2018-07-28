@@ -660,13 +660,16 @@ li.firstLetter::first-letter{
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+    border: solid yellow 1px;
 }
 
 .part6 .slideContainer .slides {
     height:100%;
+    max-width: 80%;
     display:none;
     margin-left: auto;
     margin-right: auto;
+    border: solid red 1px;
 }
 
 .part6 .more{

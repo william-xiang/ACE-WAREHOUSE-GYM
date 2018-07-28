@@ -361,7 +361,7 @@ li.firstLetter::first-letter{
     margin-right: 5vw;
     background: url("../img/part2_1.jpg");
     background-size: cover;
-    background-position: -100px;
+    background-position: -10vw;
 }
 
 .part2_2 {
@@ -369,7 +369,7 @@ li.firstLetter::first-letter{
     position: relative;
     background: url("../img/part2_2.jpg");
     background-size: cover;
-    background-position: 0px -50px;
+    background-position: 0vw -4vw;
 }
 
 #part2_1, #part2_2 {

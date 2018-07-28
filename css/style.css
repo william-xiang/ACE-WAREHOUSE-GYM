@@ -660,16 +660,14 @@ li.firstLetter::first-letter{
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    border: solid yellow 1px;
 }
 
 .part6 .slideContainer .slides {
     height:100%;
-    max-width: 80%;
+    max-width: 70%;
     display:none;
     margin-left: auto;
     margin-right: auto;
-    border: solid red 1px;
 }
 
 .part6 .more{
@@ -1609,7 +1607,6 @@ li.firstLetter::first-letter{
 .w3-button {
     border:none;
     display:inline-block;
-    padding:1.5vw 0.8vw;
     vertical-align:middle;
     overflow:hidden;
     text-decoration:none;
@@ -1620,7 +1617,6 @@ li.firstLetter::first-letter{
     white-space:nowrap;
     font-size: 1vw;
     outline: none;
-    width: 2vw;
 }
 
 .w3-display-left{

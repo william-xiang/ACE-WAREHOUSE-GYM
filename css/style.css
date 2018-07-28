@@ -93,6 +93,7 @@ li.firstLetter::first-letter{
     display: none;
     transition: 300ms;
     -webkit-transition: 300ms;
+    text-align: center;
 }
 
 #headerInvisible a {
@@ -104,6 +105,10 @@ li.firstLetter::first-letter{
     font-size: 3vw;
 	color:white;
     cursor:pointer;
+}
+
+#headerInvisible {
+    display: none;
 }
 
 #headerInvisible a:first-child {
@@ -133,6 +138,14 @@ li.firstLetter::first-letter{
         float: right;
         margin-left: 40%;
         font-size: 5vw;
+    }
+
+    #headerInvisible {
+        display: none;
+    }
+
+    #headerInvisible.visible {
+        display: block;
     }
 }
 

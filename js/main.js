@@ -275,10 +275,10 @@ window.onclick = function(event) {
 function response() {
   var isDisplay =  $("#headerInvisible").css("display");
   if (isDisplay === "none") {
-    $("#headerInvisible").css("display", "block");
+    $("#headerInvisible").addClass(" visible");
   }
   else {
-    $("#headerInvisible").css("display", "none");
+    $("#headerInvisible").removeClass(" visible");
   }
 }
 

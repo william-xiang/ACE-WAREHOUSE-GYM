@@ -1617,8 +1617,8 @@ li.firstLetter::first-letter{
     white-space:nowrap;
     outline: none;
     width: 2vw;
-    height: 6vw;
-    font-size: 1vw!important;
+    height: 7.9vw;
+    font-size: 1.5vw!important;
 }
 
 .w3-display-left{

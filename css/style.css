@@ -89,20 +89,38 @@ li.firstLetter::first-letter{
 }
 
 #headerInvisible {
-    padding-top: 5vw;
+    padding-top: 8vw;
     display: none;
-    transition: 300ms;
-    -webkit-transition: 300ms;
     text-align: center;
+    -webkit-animation-name: buttons; 
+    -webkit-animation-duration: 3s; 
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: buttons; 
+    -moz-animation-duration: 3s; 
+    -moz-animation-fill-mode: forwards;
+    animation-name: buttons;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
 }
 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes buttons {
+    0%    {opacity: 0;}
+    100%  {opacity: 1;}
+}
+
+@-moz-keyframes buttons {
+    0%    {opacity: 0;}
+    100%  {opacity: 1;}
+}
 #headerInvisible a {
     display: block;
     color: white;
     margin-top: 1.5vw;
     text-decoration: none;
     font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3vw;
+    font-size: 5vw;
 	color:white;
     cursor:pointer;
 }
@@ -113,6 +131,10 @@ li.firstLetter::first-letter{
 
 #headerInvisible a:first-child {
     margin-top: 0.5vw;
+}
+
+#headerInvisible a:last-child {
+    margin-bottom: 2vw;
 }
 
 
@@ -137,7 +159,7 @@ li.firstLetter::first-letter{
         display: block;
         float: right;
         margin-left: 40%;
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     #headerInvisible {

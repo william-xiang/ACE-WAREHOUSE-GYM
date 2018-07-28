@@ -741,12 +741,12 @@ li.firstLetter::first-letter{
     position: fixed;
     text-decoration:none;
     font-family: Arial, Helvetica, sans-serif;
-	font-size:12px;
+	font-size:0.9vw;
     color:white;
     background-color: #191c21;
     opacity: 1;
     z-index: 1;
-    height: 4vw;
+    height: 4.5vw;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -759,8 +759,7 @@ li.firstLetter::first-letter{
 .author {
     position: absolute;
     left: 20%;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin-top: 2vw;
 }
 
 .backtop a {
@@ -771,11 +770,11 @@ li.firstLetter::first-letter{
     text-align: right;
     position: absolute;
     right: 20%;
-    margin-top: 18px;
+    margin-top: 1.3vw;
 }
 
 .footer i {
-    font-size: 30px;
+    font-size: 2vw;
     text-align: end;
     opacity: 0.6;
 }
@@ -784,6 +783,7 @@ li.firstLetter::first-letter{
     opacity: 1;
 }
 
+/* css for joinus.php */
 .joinus {
     background-color: black;
 }
@@ -845,6 +845,7 @@ li.firstLetter::first-letter{
     cursor: pointer;
 }
 
+/* css for trainers.html */
 .trainerspart1 {
     background: url(../img/img1.jpg);
     background-repeat: no-repeat;
@@ -1605,7 +1606,7 @@ li.firstLetter::first-letter{
 .w3-button{
     border:none;
     display:inline-block;
-    padding:46px 10px;
+    padding:2vw 0.8vw;
     vertical-align:middle;
     overflow:hidden;
     text-decoration:none;
@@ -1614,7 +1615,7 @@ li.firstLetter::first-letter{
     text-align:center;
     cursor:pointer;
     white-space:nowrap;
-    font-size: 18px;
+    font-size: 2vw;
     outline: none;
 }
 

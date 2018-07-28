@@ -1603,10 +1603,10 @@ li.firstLetter::first-letter{
     margin-right: auto;
 }
 
-.w3-button{
+.w3-button {
     border:none;
     display:inline-block;
-    padding:2vw 0.8vw;
+    padding:1.5vw 0.8vw;
     vertical-align:middle;
     overflow:hidden;
     text-decoration:none;
@@ -1615,8 +1615,9 @@ li.firstLetter::first-letter{
     text-align:center;
     cursor:pointer;
     white-space:nowrap;
-    font-size: 2vw;
+    font-size: 1vw;
     outline: none;
+    width: 2vw;
 }
 
 .w3-display-left{
@@ -1653,7 +1654,7 @@ li.firstLetter::first-letter{
     animation:animaterleft 0.7s;
 }
 
-@keyframes animaterleft{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@keyframes animaterleft{from{right:-60vw;opacity:0} to{right:0;opacity:1}}
 
 
 

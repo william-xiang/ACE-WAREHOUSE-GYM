@@ -5,7 +5,7 @@ window.onscroll = function(ev) {
     footer.className = "footer";
   }
   else {
-    footer.className += " invisible";
+    footer.className = "footer invisible";
   }
 
 };

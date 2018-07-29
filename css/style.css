@@ -1451,10 +1451,7 @@ li.firstLetter::first-letter{
 }
 
 .classesPart3 .more {
-    /* float: right; */
     position: absolute;
-    /* margin-right: 3.66vw; */
-    /* margin-top: -4vw; */
     left: 37vw;
     top: 35.5vw;
 }

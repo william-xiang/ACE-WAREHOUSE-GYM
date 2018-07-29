@@ -705,10 +705,11 @@ li.firstLetter::first-letter{
 
 #slideshowButton {
     position: fixed;
-    top: 45%;
+    top: 40%;
     right: 20px;
     line-height: 30px;  
-    z-index: 200;      
+    z-index: 200;    
+    display: block;  
 }
 
 .circle {
@@ -736,6 +737,12 @@ li.firstLetter::first-letter{
 .activeslide, .circle:hover, .indexactiveslide, .indexcircle:hover, .businessactiveslide, .businesscircle:hover, .classesactiveslide, .classescircle:hover {
     background-color:white;
     transition-timing-function: ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+    #slideshowButton {
+        display: none;
+    }
 }
 
 .footer {

@@ -1479,7 +1479,7 @@ li.firstLetter::first-letter{
     .classesPart3 .more {
         position: absolute;
         left: 37vw;
-        top: 30vw;
+        top: 32vw;
     }
     
     .classesPart3 .more a {
@@ -1568,8 +1568,11 @@ li.firstLetter::first-letter{
 .classesPart4 #part2 .subtitle {
     font-size: 1.3vw;
     font-family: Roboto, sans-serif;
-    display: block;
     margin-bottom: 0.3vw;
+}
+
+.classesPart4 #part2 .subtitle br {
+    line-height: 180%;
 }
 
 .classesPart4 #part2 .subcontent {
@@ -1578,13 +1581,7 @@ li.firstLetter::first-letter{
 }
 
 .classesPart4 #part2 .subcontent br {
-    line-height: 1.5vw;
-}
-
-@media screen and (max-width: 600px) {
-    .classesPart4 #part2 .subcontent br {
-        line-height: 0.5vw;
-    }
+    line-height: 150%;
 }
 
 .classesPart4 .more {

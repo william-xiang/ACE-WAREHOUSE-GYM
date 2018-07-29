@@ -1560,8 +1560,7 @@ li.firstLetter::first-letter{
     letter-spacing: 3px;
 }
 
-.classesPart4 #part2 .content {
-    margin-top: 1.5vw;
+.classesPart4 #part2 p:not(:first-child) {
     margin-left: 3vw;
 }
 

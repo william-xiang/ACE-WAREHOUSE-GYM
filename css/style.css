@@ -1616,8 +1616,8 @@ li.firstLetter::first-letter{
     cursor:pointer;
     white-space:nowrap;
     outline: none;
-    width: 2vw;
-    height: 7.9vw;
+    width: 1.5vw;
+    height: 6vw;
     font-size: 1.5vw!important;
 }
 
@@ -1941,7 +1941,7 @@ li.firstLetter::first-letter{
     margin-right: auto;
 }
 
-.w3-button{
+/* .w3-button{
     border:none;
     display:inline-block;
     padding:46px 10px;
@@ -1957,7 +1957,7 @@ li.firstLetter::first-letter{
     outline: none;
 }
 
-/* .w3-display-left{
+.w3-display-left{
     position:absolute;
     top:50%;
     left:0%;
@@ -1971,7 +1971,7 @@ li.firstLetter::first-letter{
     right:0%;
     transform:translate(0%,-50%);
     -ms-transform:translate(0%,-50%);
-} */
+}
 
 .w3-black {
     color:#fff!important;
@@ -1991,7 +1991,7 @@ li.firstLetter::first-letter{
     animation:animaterleft 0.7s;
 }
 
-@keyframes animaterleft{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@keyframes animaterleft{from{right:-300px;opacity:0} to{right:0;opacity:1}} */
 
 .trainers #anchor2 {
     color: white;

@@ -1553,6 +1553,10 @@ li.firstLetter::first-letter{
     font-family: Roboto, sans-serif;
 }
 
+.classesPart4 #part2 .subcontent br {
+    line-height: 1.5vw;
+}
+
 .classesPart4 .more {
     margin-top: 3vw;
     margin-left: 3vw;
@@ -1561,7 +1565,7 @@ li.firstLetter::first-letter{
 .classesPart4 .more a {
     border: solid #ec3642 1px;
     border-radius: 2px;
-    padding: 0.6vw 2.625vw 0.6vw 2.625vw;
+    padding: 0.6vw 2vw 0.6vw 2vw;
     background-color: #ec3642;
     color: white;
     text-decoration:none;

@@ -1266,8 +1266,8 @@ li.firstLetter::first-letter{
 }
 
 .classesContainter .classesPart1Container {
-    height: 610px;
-    padding-top: 60px;
+    height: 45vw;
+    padding-top: 5vw;
 
 }
 
@@ -1290,13 +1290,13 @@ li.firstLetter::first-letter{
 
 .classesPart1 .content {
     position: relative;
-    width: 500px;
-    height: 300px;
+    width: 37vw;
+    height: 23vw;
     border: solid white 1px;
     margin-left: auto;
     margin-right: auto;
-    top: 150px;
-    padding-top: 20px;
+    top: 11vw;
+    padding-top: 1vw;
     visibility: hidden;
 }
 
@@ -1327,39 +1327,39 @@ li.firstLetter::first-letter{
 .classesPart1 .content .title {
     text-align: center;
     font-family: 'Caveat', sans-serif;
-    font-size: 60px;
-    padding-bottom: 10px;
+    font-size: 4vw;
+    padding-bottom: 1vw;
 }
 
 .classesPart1 .content .content12 {
-    padding-top: 10px;
+    padding-top: 1vw;
     text-align: left;
 }
 .classesPart1 .content .content1 {
     text-align: left;
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
+    font-size: 1.1vw;
     float: left;
-    width: 235px;
-    padding-left: 45px;
+    width: 15vw;
+    padding-left: 3.5vw;
 }
 
 .classesPart1 .content .content2 {
     position: relative;
     text-align: left;
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
+    font-size: 1.1vw;
     float: left;
-    width: 141px;
-    padding-left: 23px;
+    width: 14.5vw;
+    padding-left: 3.5vw;
     clear: right;
 }
 
 .classesPart1 .content .border1 {
     position: absolute;
-    top: 110px;
-    left: 240px;
-    height: 160px;
+    top: 7.8vw;
+    left: 18.2vw;
+    height: 11.7vw;
 }
 
 .classesPart1 .content .bottomtitle {
@@ -1372,22 +1372,22 @@ li.firstLetter::first-letter{
 }
 
 .classesPart2 {
-    height: 180px;
+    height: 13vw;
     background: black;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 4.4vw;
 
 }
 
 .classesPart2 .change {
-    font-size: 2em;
+    font-size: 2.5vw;
     font-family: Roboto, sans-serif;
     font-weight: bold;
 }
 
 .classesPart2 .classesPart2hr {
-    margin-top: 20px;
-    width: 180px;
+    margin-top: 1.46vw;
+    width: 13vw;
     margin-left: auto;
     margin-right: auto;
     border-color:white;

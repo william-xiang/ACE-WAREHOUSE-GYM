@@ -1562,25 +1562,20 @@ li.firstLetter::first-letter{
 
 .classesPart4 #part2 p:not(:first-child) {
     margin-left: 3vw;
+    line-height: 120%;
 }
 
 .classesPart4 #part2 .subtitle {
     font-size: 1.3vw;
     font-family: Roboto, sans-serif;
     margin-bottom: 0.3vw;
-}
-
-.classesPart4 #part2 .subtitle br {
-    line-height: 180%;
+    margin-top: 1.8vw;
 }
 
 .classesPart4 #part2 .subcontent {
+    margin-top: 0.8vw;
     font-size: 1vw;
     font-family: Roboto, sans-serif;
-}
-
-.classesPart4 #part2 .subcontent br {
-    line-height: 150%;
 }
 
 .classesPart4 .more {

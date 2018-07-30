@@ -1673,6 +1673,24 @@ li.firstLetter::first-letter{
 }
 
 
+@media screen and (max-width: 600px) {
+    .programscontainer {
+        padding-top: 0vw;
+    }
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes coming {
+        0%    {opacity: 0; margin-top: 0px;}
+        100%  {opacity: 1; margin-top: 15vw;}
+    }
+
+    @-moz-keyframes coming {
+        0%    {opacity: 0; margin-top: 0px;}
+        100%  {opacity: 1; margin-top: 15vw;}
+    }
+}
+
+
 /* css for business */
 .business {
     background: url(../img/business.jpg);

@@ -114,7 +114,7 @@ li.firstLetter::first-letter{
     border: none;
     color: gray;
     background-color: gray;
-    height: 0.2vw;
+    height: 0.4vw;
 }
 
 @media screen and (max-width: 600px) {

@@ -16,7 +16,7 @@ $(document).ready(function(){
 
     displayDates(year, date, day, month, clickedDate);
 
-    $(".w3-display-right").click(function(){
+    $(".w3-display-right2").click(function(){
         agendas = [[], [], [], [], [], [], []];
         var daysinmonth = getDaysInMonth(month,year);
         clickedDate = undefined;
@@ -36,7 +36,7 @@ $(document).ready(function(){
         displayDates(year, date, day, month, clickedDate);
     });
 
-    $(".w3-display-left").click(function(){
+    $(".w3-display-left2").click(function(){
         agendas = [[], [], [], [], [], [], []];
         var daysinprevmonth = getDaysInMonth(month-1,year);
         clickedDate = undefined;

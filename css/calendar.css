@@ -348,7 +348,6 @@ html, body {
     font-weight: bold;
     color: white;
     line-height: 1.4641288433382138vw;
-    border: solid yellow 1px;
 }
 
 @media screen and (max-width: 600px) {

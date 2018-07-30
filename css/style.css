@@ -131,7 +131,7 @@ li.firstLetter::first-letter{
         position: relative;
         display: block;
         float: left;
-        margin-left: 28%;
+        margin-left: 26.5%;
     }
 
     #navigation a:first-child img {
@@ -1639,14 +1639,14 @@ li.firstLetter::first-letter{
     100%  {opacity: 1; margin-top: 5vw;}
 }
 
-
 .programscontainer .ace {
     font-family: 'Raleway', sans-serif;
     float: right;
     margin-top: -5vw;
+    padding-right: 5.4vw;
     font-size: 1.1vw;
     font-weight: bold;
-    width: 100%;
+    width: 90%;
     -webkit-animation-name: ace; 
     -webkit-animation-duration: 2s; 
     -webkit-animation-fill-mode: forwards;

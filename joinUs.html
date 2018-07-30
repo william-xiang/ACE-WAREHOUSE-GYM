@@ -17,31 +17,30 @@
 
 <body class="joinus">
     <a class="anchor slideshow" id="anchor"></a>
-
     <div class="header" id="navigation">
-        <ul>
-            <li>
-                <a href="index.html"><img class="logo" src="img/logo.png"></a>
-            </li>
-            <li>
-                <a href="classes.html">Classes</a>
-            </li>
-            <li>
-                <a href="trainers.html">Trainers</a>
-            </li>
-            <li>
-                <a  href="clients.html">Clients</a>
-            </li>
-            <li>
-                <a  href="programs.html">Programs</a>
-            </li>
-            <li>
-            <a  href="business.html">Business</a>
-            </li>
-            <li>
-                <a href="joinUs.php">Join Us</a>
-            </li>
-        </ul>
+        <a href="index.html">
+            <img class="logo" src="img/logo.png">
+        </a>
+        <a href="classes.html">Classes</a>
+        <a href="trainers.html">Trainers</a>
+        <a href="clients.html">Clients</a>
+        <a href="programs.html">Programs</a>
+        <a href="business.html">Business</a>
+        <a href="joinUs.php">Join Us</a>
+        <a href="javascript:void(0)" class="icon" onclick="response()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="headerInvisible" id="headerInvisible">
+        <div class="link">
+            <a href="classes.html">Classes</a>
+            <a href="trainers.html">Trainers</a>
+            <a href="clients.html">Clients</a>
+            <a href="programs.html">Programs</a>
+            <a href="business.html">Business</a>
+            <a href="joinUs.php">Join Us</a>
+        </div>
     </div>
 
     <div class="containerContact">
@@ -50,9 +49,7 @@
                 <div class="calendar">
                     <div id="header">
                         <div id="date">
-                            <p id="datetext">
-    
-                            </p>
+                            <p id="datetext"></p>
                         </div>
                         <div id="today">
                             <button id="todaybutton">Today</button>
@@ -160,8 +157,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="w3-button w3-display-left w3-black">&#10094;</button>
-                            <button class="w3-button w3-display-right w3-black">&#10095;</button>
+                            <button class="w3-button2 w3-display-left2 w3-black2">&#10094;</button>
+                            <button class="w3-button2 w3-display-right2 w3-black2">&#10095;</button>
                         </div>
                         <div class="agenda">
     
@@ -209,19 +206,19 @@
         </ul>
     </div>
 
-    <div class="footer invisible" id="footer">
+    <div class="footer">
         <div class="author">
-            <p>Copyright &copy; 2018 ACE Warehouse Gym</p>
+            <p>&copy; 2018 by Cherrina Hong.</p>
         </div>
         <div class="backtop">
             <a href="#anchor"><i class="fas fa-angle-up"></i></a>
         </div>
-    </div>  
+    </div>    
 </body>
 
 </html>
 
-<?php
+<!-- <?php
 if(isset($_POST['email'])) {
 
     $name = $_POST['name']; // required
@@ -253,4 +250,4 @@ if(isset($_POST['email'])) {
     $status = mail($email_to1, $email_subject1, $email_message1, $headers1);  
     mail($email_to2, $email_subject2, $email_message2, $headers2); 
 }
-?>
+?> -->

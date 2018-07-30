@@ -19,7 +19,7 @@ html, body {
     background-color: #ec3642;
 }
 
-.containterContact #date {
+.containerContact #date {
     position: relative;
     width: 50%;
     height: 100%;
@@ -82,7 +82,7 @@ html, body {
     position: relative;
 }
 
-.w3-button{
+.containerContact .w3-button2{
     border:none;
     display:inline-block;
     padding:37px 8px;
@@ -97,7 +97,7 @@ html, body {
     font-size: 12px;
 }
 
-.w3-display-left{
+.containerContact .w3-display-left2{
     position:absolute;
     top:50%;
     left:0%;
@@ -105,7 +105,7 @@ html, body {
     -ms-transform:translate(-0%,-50%);
 }
 
-.w3-display-right{
+.containerContact .w3-display-right2{
     position:absolute;
     top:50%;
     right:0%;
@@ -113,14 +113,14 @@ html, body {
     -ms-transform:translate(0%,-50%);
 }
 
-.w3-black {
+.containerContact .w3-black2 {
     color: rgba(164, 164, 164, 0.6)!important;
     background-color:#222222!important;
     -webkit-transition: 300ms;
     transition: 300ms;
 }
 
-.w3-black:hover {
+.containerContact .w3-black2:hover {
     color: rgba(164, 164, 164, 1)!important;
     transition-timing-function: ease-in-out;
 }

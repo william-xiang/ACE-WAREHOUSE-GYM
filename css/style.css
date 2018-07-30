@@ -1921,20 +1921,44 @@ li.firstLetter::first-letter{
 }
 
 .containerContact {
-    height: 650px;
-    padding-top: 120px;
+    padding-top: 8.78vw;
 }
+
+.containerContact .ulcontainer{
+    display:inline-block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerContact .ulcontainer .licontainer {
+    list-style-type:none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+
+.containerContact .licontainer:nth-child(1){
+    margin-right: 5%;
+}
+
+.containerContact .licontainer:nth-child(2){
+    margin-left: 5%;
+}
+
 
 .contact #title {
     font-family: 'Rozha One', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
+    font-size: 2.93vw;
     color: #ec3642;
 }
 
 .containerContact .contact p {
     margin-top: 10px;
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 1.1vw;
 }
 
 .contact form {
@@ -2041,5 +2065,4 @@ li.firstLetter::first-letter{
 .footer i:hover {
     opacity: 1;
 }
-
 

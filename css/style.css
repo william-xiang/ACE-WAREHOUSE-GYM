@@ -4,7 +4,6 @@
 }
 
 body {
-    background-color: #222222;
     color: white;
 }
 
@@ -17,6 +16,7 @@ body {
 /* css for navigation bar */
 .header {
     position: fixed;
+    top: 0;
     width: 100%;
     background-color:  #222222;
     z-index: 150;
@@ -27,24 +27,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;  
-}
-
-#navigation ul{
-    display:block;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#navigation li{
-    list-style-type:none;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    white-space: nowrap;
 }
 
 #navigation a{
@@ -90,17 +72,16 @@ li.firstLetter::first-letter{
 }
 
 #headerInvisible {
-    padding-top: 10vw;
     display: none;
     text-align: center;
     -webkit-animation-name: buttons; 
-    -webkit-animation-duration: 3s; 
+    -webkit-animation-duration: 1.5s; 
     -webkit-animation-fill-mode: forwards;
     -moz-animation-name: buttons; 
-    -moz-animation-duration: 3s; 
+    -moz-animation-duration: 1.5s; 
     -moz-animation-fill-mode: forwards;
     animation-name: buttons;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
     overflow: hidden;
 }
@@ -115,30 +96,24 @@ li.firstLetter::first-letter{
     0%    {opacity: 0;}
     100%  {opacity: 1;}
 }
+
 #headerInvisible a {
     display: block;
     color: white;
-    margin-top: 1.5vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
     text-decoration: none;
     font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 5vw;
-	color:white;
+    font-size: 4vw;
+	color:black;
     cursor:pointer;
 }
 
-#headerInvisible {
-    display: none;
-}
-
-#headerInvisible a:first-child {
-    margin-top: 0.5vw;
-}
-
-#headerInvisible a:last-child {
-    margin-bottom: 2vw;
-}
-
 @media screen and (max-width: 600px) {
+    .header {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
     #navigation a {
         display: none;
     }
@@ -147,7 +122,7 @@ li.firstLetter::first-letter{
         position: relative;
         display: block;
         float: left;
-        margin-right: 40%;
+        margin-right: 20%;
     }
 
     #navigation a:first-child img {
@@ -167,6 +142,15 @@ li.firstLetter::first-letter{
 
     #headerInvisible.visible {
         display: block;
+    }
+
+    #headerInvisible .link {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
     }
 }
 
@@ -745,58 +729,13 @@ li.firstLetter::first-letter{
     }
 }
 
-.footer {
-    position: fixed;
-    text-decoration:none;
-    font-family: Arial, Helvetica, sans-serif;
-	font-size:0.9vw;
-    color:white;
-    background-color: #191c21;
-    opacity: 1;
-    z-index: 1;
-    height: 4.5vw;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-.footer.invisible {
-    display: none;
-}
-
-.author {
-    position: absolute;
-    left: 20%;
-    margin-top: 2vw;
-}
-
-.backtop a {
-    color: white;
-}
-
-.backtop {
-    text-align: right;
-    position: absolute;
-    right: 20%;
-    margin-top: 1.3vw;
-}
-
-.footer i {
-    font-size: 2vw;
-    text-align: end;
-    opacity: 0.6;
-}
-
-.footer i:hover {
-    opacity: 1;
-}
 
 /* css for joinus.php */
 .joinus {
     background-color: black;
 }
 
-.containterContact {
+.containerContact {
     height: 650px;
     padding-top: 120px;
 }
@@ -807,7 +746,7 @@ li.firstLetter::first-letter{
     color: #ec3642;
 }
 
-.containterContact .contact p {
+.containerContact .contact p {
     margin-top: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
@@ -853,425 +792,15 @@ li.firstLetter::first-letter{
     cursor: pointer;
 }
 
-/* css for trainers.html */
-.trainerspart1 {
-    background: url(../img/img1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border: solid rgba(0, 0, 0, 0) 0.1px;
-    height: 650px;
-    width: 100%;
-}
 
-.trainerspart1 .contactBox {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 220px;
-    top: 160px;
-    text-align: right;
-    width: 500px;
-    height: 290px;
-    margin-top: 50px;
-    background: url(../img/white.png);
-    padding-right: 15px;
-    padding-top: 15px;
-
-    -webkit-animation-name: buttons1; 
-    -webkit-animation-duration: 2s; 
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-name: buttons1; 
-    -moz-animation-duration: 2s; 
-    -moz-animation-fill-mode: forwards;
-    animation-name: buttons1;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes buttons1 {
-    0%    {opacity: 0;}
-    100%  {opacity: 1;}
-}
-
-@-moz-keyframes buttons1 {
-    0%    {opacity: 0;}
-    100%  {opacity: 1;}
-}
-
-.trainerspart1 .contactBox p {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    letter-spacing: 4px;
-    line-height: 110%;
-}
-
-.trainerspart1 div {
-    position: relative;
-}
-
-.trainerspart1 ul {
-    display:inline-block;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 35px;
-}
-
-.trainerspart1 li:nth-child(1) {
-    list-style-type:none;
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 120px;
-    margin-top: 15px;
-    white-space: nowrap;
-}
-
-.trainerspart1 li:nth-child(2) {
-    list-style-type:none;
-    display: inline-block;
-    margin-left: 120px;
-    white-space: nowrap;
-}
-
-.trainerspart1 li:nth-child(2) img {
-    width: 100px;
-}
-
-
-.trainerspart1 li a{
-    text-decoration:none;
-    font-family: 'Maven Pro', sans-serif;
-    font-size:16px;
-    font-weight: bold;
-	color:#222222;
-    cursor:pointer;
-    -webkit-transition: 400ms;
-    transition: 400ms;
-}
-
-.trainerspart1 .more{
-    visibility: visible;
-}
-
-.trainerspart1 .more a {
-    border: solid #222222 1px;
-    border-radius: 2px;
-    padding: 8px 50px 8px 50px;
-    background-color: rgba(0, 0, 0, 0);
-    color: #222222;
-    text-decoration:none;
-    cursor: pointer;
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    z-index: 50;
-    opacity: 1;
-    -webkit-transition: 400ms;
-    transition: 400ms;
-    letter-spacing: 1px;
-}
-
-.trainerspart1 .more a:hover {
-    border: solid #222222 1px;
-    background-color: #222222;
-    color: white;
-    transition-timing-function: ease-in-out;
-}
-
-.trainerspart2 {
-    background-color: black;
-    padding-left: 13%;
-}
-
-.lv1container {
-    padding-top: 40px;
-}
-
-.lv1container div {
-    padding-left: 20px;
-    padding-top: 30px;
-}
-
-.lv1container img {
-    width: 250px;
-}
-
-.lv1container .lv1 {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 38px;
-}
-
-.lv1container .name {
-    font-family: 'Lobster', cursive;
-    font-size: 38px;
-    margin-top: 5px;
-}
-
-.lv1container .desc {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
-    margin-top: 5px;
-}
-
-.lv2container {
-    padding-top: 100px;
-    padding-bottom: 100px;   
-}
-
-.lv2container div {
-    padding-top: 30px;
-}
-
-.lv2container img {
-    width: 250px;
-}
-
-.lv2container .lv2 {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 35px;
-}
-
-.lv2container .name {
-    font-family: 'Lobster', cursive;
-    font-size: 38px;
-    margin-top: 5px;
-}
-
-.lv2container .desc {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 15px;
-    margin-top: 5px;
-}
-
-.lv2container ul{
-    display:inline-block;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    margin-right: 40px;
-    margin-left: 20px;
-}
-
-.lv2container li{
-    list-style-type:none;
-    display: inline-block;
-    max-width: 180px;
-    white-space: nowrap;
-}
-
-.lv2container li:nth-child(2){
-    list-style-type:none;
-    display: inline-block;
-    white-space: nowrap;
-    margin-left: 120px;
-    margin-right: 120px;
-}
-
-.trainerspart3 {
-    background: url(../img/img2.jpg);
-    background-size: cover;
-    height: 600px;
-    padding-left: 25px;
-    padding-top: 25px;
-}
-
-.trainerspart3 .contactBoxContainer {
-    position: relative;
-    text-align: right;
-    width: 500px;
-    height: 200px;
-    top: 160px;
-    background: url(../img/white.png);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid rgba(0, 0, 0, 0) 1px;
-    -webkit-animation-name: buttons1; 
-    -webkit-animation-duration: 2s; 
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-name: buttons1; 
-    -moz-animation-duration: 2s; 
-    -moz-animation-fill-mode: forwards;
-    animation-name: buttons1;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes buttons1 {
-    0%    {opacity: 0;}
-    100%  {opacity: 1;}
-}
-
-@-moz-keyframes buttons1 {
-    0%    {opacity: 0;}
-    100%  {opacity: 1;}
-}
-
-.trainerspart3 .contactBox p {
-    height: 100%;
-    
-    /* Internet Explorer 10 */
-    display:-ms-flexbox;
-    -ms-flex-pack:center;
-    -ms-flex-align:center;
-
-    /* Firefox */
-    display:-moz-box;
-    -moz-box-pack:center;
-    -moz-box-align:center;
-
-    /* Safari, Opera, and Chrome */
-    display:-webkit-box;
-    -webkit-box-pack:center;
-    -webkit-box-align:center;
-
-    /* W3C */
-    display:box;
-    box-pack:center;
-    box-align:center;
-}
-
-.trainerspart3 .contactBox a {
-    font-family: 'Maven Pro', sans-serif;
-    color: #ec3642;
-    font-size: 40px;
-    font-weight: bold;
-    letter-spacing: 4px;
-    text-decoration:none;
-    cursor: pointer;
-    -webkit-transition: 600ms;
-    transition: 600ms;
-}
-
-.trainerspart3 .contactBox a:hover {
-    background-color: #ec3642;
-    color: white;
-    transition-timing-function: ease-in-out;
-}
-
-.trainerspart3 div {
-    position: relative;
-}
-
-.trainerspart3 .contactBox {
-    width: 500px;
-    height: 200px;
-    margin-left: -25px;
-    margin-top: -25px;
-    border: solid white 1px;
-}
-
-.trainerspart3 .inner {
-    width: 100%;
-    height: 100%;
-    margin-left: 25px;
-    margin-top: 25px;
-}
-
-/* css for program */
-
-.programsHtml, .programsindex {
-    height: 100%;
-    background-color: black;
-}
-
-.programsContainter {
-    height: 580px;
-    padding-top: 65px;
-    text-align: center;
-}
-
-.programsContainter .coming {
-    height: 100%;
-    font-family: 'Raleway', sans-serif;
-    font-size: 50px;
-    letter-spacing: 6px;
-    font-weight: bolder;
-    color: #ec3642;
-    
-    /* Internet Explorer 10 */
-    display:-ms-flexbox;
-    -ms-flex-pack:center;
-    -ms-flex-align:center;
-
-    /* Firefox */
-    display:-moz-box;
-    -moz-box-pack:center;
-    -moz-box-align:center;
-
-    /* Safari, Opera, and Chrome */
-    display:-webkit-box;
-    -webkit-box-pack:center;
-    -webkit-box-align:center;
-
-    /* W3C */
-    display:box;
-    box-pack:center;
-    box-align:center;
-    -webkit-animation-name: coming; 
-    -webkit-animation-duration: 2s; 
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-name: coming; 
-    -moz-animation-duration: 2s; 
-    -moz-animation-fill-mode: forwards;
-    animation-name: coming;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes coming {
-    0%    {opacity: 0; margin-top: 0px;}
-    100%  {opacity: 1; margin-top: -50px;}
-}
-
-@-moz-keyframes coming {
-    0%    {opacity: 0; margin-top: 0px;}
-    100%  {opacity: 1; margin-top: 50px;}
-}
-
-
-.programsContainter .ace {
-    font-family: 'Raleway', sans-serif;
-    float: right;
-    font-size: 15px;
-    font-weight: bold;
-    width: 100%;
-    margin-top: -310px;
-    -webkit-animation-name: ace; 
-    -webkit-animation-duration: 2s; 
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-name: ace; 
-    -moz-animation-duration: 2s; 
-    -moz-animation-fill-mode: forwards;
-    animation-name: ace;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes ace {
-    0%    {opacity: 0; margin-top: -270px;}
-    100%  {opacity: 1; margin-top: -300px;}
-}
-
-@-moz-keyframes ace {
-    0%    {opacity: 0; margin-top: -270px;}
-    100%  {opacity: 1; margin-top: -300px;}
-}
-
-.classesContainter .classesPart1Container {
+/* css for classes */
+.classescontainer .classesPart1Container {
     height: 45vw;
     padding-top: 5vw;
 
 }
 
-.classesContainter .classesPart1Container .classesPart1 {
+.classescontainer .classesPart1Container .classesPart1 {
     background: url(../img/newgraffitiv3.jpg);
     background-size: cover;
     background-position: center;
@@ -1397,7 +926,7 @@ li.firstLetter::first-letter{
     border-bottom: solid 0px white;
 }
 
-.classesContainter .classeshr {
+.classescontainer .classeshr {
     margin-left: auto;
     margin-right: auto;
     border-color:white;
@@ -1605,6 +1134,425 @@ li.firstLetter::first-letter{
 }
 
 
+/* css for trainers.html */
+.trainerspart1 {
+    background: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid rgba(0, 0, 0, 0) 0.1px;
+    height: 650px;
+    width: 100%;
+}
+
+.trainerspart1 .contactBox {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 220px;
+    top: 160px;
+    text-align: right;
+    width: 500px;
+    height: 290px;
+    margin-top: 50px;
+    background: url(../img/white.png);
+    padding-right: 15px;
+    padding-top: 15px;
+
+    -webkit-animation-name: buttons1; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: buttons1; 
+    -moz-animation-duration: 2s; 
+    -moz-animation-fill-mode: forwards;
+    animation-name: buttons1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes buttons1 {
+    0%    {opacity: 0;}
+    100%  {opacity: 1;}
+}
+
+@-moz-keyframes buttons1 {
+    0%    {opacity: 0;}
+    100%  {opacity: 1;}
+}
+
+.trainerspart1 .contactBox p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    line-height: 110%;
+}
+
+.trainerspart1 div {
+    position: relative;
+}
+
+.trainerspart1 ul {
+    display:inline-block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.trainerspart1 li:nth-child(1) {
+    list-style-type:none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 120px;
+    margin-top: 15px;
+    white-space: nowrap;
+}
+
+.trainerspart1 li:nth-child(2) {
+    list-style-type:none;
+    display: inline-block;
+    margin-left: 120px;
+    white-space: nowrap;
+}
+
+.trainerspart1 li:nth-child(2) img {
+    width: 100px;
+}
+
+
+.trainerspart1 li a{
+    text-decoration:none;
+    font-family: 'Maven Pro', sans-serif;
+    font-size:16px;
+    font-weight: bold;
+	color:#222222;
+    cursor:pointer;
+    -webkit-transition: 400ms;
+    transition: 400ms;
+}
+
+.trainerspart1 .more{
+    visibility: visible;
+}
+
+.trainerspart1 .more a {
+    border: solid #222222 1px;
+    border-radius: 2px;
+    padding: 8px 50px 8px 50px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #222222;
+    text-decoration:none;
+    cursor: pointer;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    z-index: 50;
+    opacity: 1;
+    -webkit-transition: 400ms;
+    transition: 400ms;
+    letter-spacing: 1px;
+}
+
+.trainerspart1 .more a:hover {
+    border: solid #222222 1px;
+    background-color: #222222;
+    color: white;
+    transition-timing-function: ease-in-out;
+}
+
+.trainers #anchor2 {
+    position: relative;
+    top: -30px;
+    visibility: hidden;
+}
+
+.trainerspart2 {
+    background-color: black;
+    padding-left: 13%;
+}
+
+.lv1container {
+    padding-top: 40px;
+}
+
+.lv1container div {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.lv1container img {
+    width: 250px;
+}
+
+.lv1container .lv1 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 38px;
+}
+
+.lv1container .name {
+    font-family: 'Lobster', cursive;
+    font-size: 38px;
+    margin-top: 5px;
+}
+
+.lv1container .desc {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.lv2container {
+    padding-top: 100px;
+    padding-bottom: 100px;   
+}
+
+.lv2container div {
+    padding-top: 30px;
+}
+
+.lv2container img {
+    width: 250px;
+}
+
+.lv2container .lv2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 35px;
+}
+
+.lv2container .name {
+    font-family: 'Lobster', cursive;
+    font-size: 38px;
+    margin-top: 5px;
+}
+
+.lv2container .desc {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.lv2container ul{
+    display:inline-block;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.lv2container li{
+    list-style-type:none;
+    display: inline-block;
+    max-width: 180px;
+    white-space: nowrap;
+}
+
+.lv2container li:nth-child(2){
+    list-style-type:none;
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.trainerspart3 {
+    background: url(../img/img2.jpg);
+    background-size: cover;
+    height: 600px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.trainerspart3 .contactBoxContainer {
+    position: relative;
+    text-align: right;
+    width: 500px;
+    height: 200px;
+    top: 160px;
+    background: url(../img/white.png);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    -webkit-animation-name: buttons1; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: buttons1; 
+    -moz-animation-duration: 2s; 
+    -moz-animation-fill-mode: forwards;
+    animation-name: buttons1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes buttons1 {
+    0%    {opacity: 0;}
+    100%  {opacity: 1;}
+}
+
+@-moz-keyframes buttons1 {
+    0%    {opacity: 0;}
+    100%  {opacity: 1;}
+}
+
+.trainerspart3 .contactBox p {
+    height: 100%;
+    
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Opera, and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+.trainerspart3 .contactBox a {
+    font-family: 'Maven Pro', sans-serif;
+    color: #ec3642;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-decoration:none;
+    cursor: pointer;
+    -webkit-transition: 600ms;
+    transition: 600ms;
+}
+
+.trainerspart3 .contactBox a:hover {
+    background-color: #ec3642;
+    color: white;
+    transition-timing-function: ease-in-out;
+}
+
+.trainerspart3 div {
+    position: relative;
+}
+
+.trainerspart3 .contactBox {
+    width: 500px;
+    height: 200px;
+    margin-left: -25px;
+    margin-top: -25px;
+    border: solid white 1px;
+}
+
+.trainerspart3 .inner {
+    width: 100%;
+    height: 100%;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+
+/* css for program */
+.programsHtml, .programsindex {
+    height: 100%;
+    background-color: black;
+}
+
+.programscontainer {
+    height: 580px;
+    padding-top: 65px;
+    text-align: center;
+}
+
+.programscontainer .coming {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: bolder;
+    color: #ec3642;
+    
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Opera, and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+    -webkit-animation-name: coming; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: coming; 
+    -moz-animation-duration: 2s; 
+    -moz-animation-fill-mode: forwards;
+    animation-name: coming;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes coming {
+    0%    {opacity: 0; margin-top: 0px;}
+    100%  {opacity: 1; margin-top: -50px;}
+}
+
+@-moz-keyframes coming {
+    0%    {opacity: 0; margin-top: 0px;}
+    100%  {opacity: 1; margin-top: 50px;}
+}
+
+
+.programscontainer .ace {
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -310px;
+    -webkit-animation-name: ace; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: ace; 
+    -moz-animation-duration: 2s; 
+    -moz-animation-fill-mode: forwards;
+    animation-name: ace;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes ace {
+    0%    {opacity: 0; margin-top: -270px;}
+    100%  {opacity: 1; margin-top: -300px;}
+}
+
+@-moz-keyframes ace {
+    0%    {opacity: 0; margin-top: -270px;}
+    100%  {opacity: 1; margin-top: -300px;}
+}
+
+
 /* css for business */
 .business {
     background: url(../img/business.jpg);
@@ -1807,7 +1755,6 @@ li.firstLetter::first-letter{
 
 
 
-
 /* clients */
 .clients {
     background: url(../img/img6.jpg);
@@ -1974,89 +1921,6 @@ li.firstLetter::first-letter{
     margin-right: auto;
 }
 
-/* .w3-button{
-    border:none;
-    display:inline-block;
-    padding:46px 10px;
-    vertical-align:middle;
-    overflow:hidden;
-    text-decoration:none;
-    color:inherit;
-    background-color:inherit;
-    text-align:center;
-    cursor:pointer;
-    white-space:nowrap;
-    font-size: 18px;
-    outline: none;
-}
-
-.w3-display-left{
-    position:absolute;
-    top:50%;
-    left:0%;
-    transform:translate(0%,-50%);
-    -ms-transform:translate(-0%,-50%);
-}
-
-.w3-display-right{
-    position:absolute;
-    top:50%;
-    right:0%;
-    transform:translate(0%,-50%);
-    -ms-transform:translate(0%,-50%);
-}
-
-.w3-black {
-    color:#fff!important;
-    background-color:#191c21!important;
-    opacity: 0.8;
-    -webkit-transition: 300ms;
-    transition: 300ms;
-}
-
-.w3-black:hover {
-    opacity: 1;
-    transition-timing-function: ease-in-out;
-}
-
-.w3-animate-left {
-    position:relative;
-    animation:animaterleft 0.7s;
-}
-
-@keyframes animaterleft{from{right:-300px;opacity:0} to{right:0;opacity:1}} */
-
-.trainers #anchor2 {
-    color: white;
-    position: relative;
-    top: -30px;
-    visibility: hidden;
-}
-
-.containterContact .ulcontainer{
-    display:inline-block;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.containterContact .ulcontainer .licontainer {
-    list-style-type:none;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    white-space: nowrap;
-}
-
-.containterContact .licontainer:nth-child(1){
-    margin-right: 5%;
-}
-
-.containterContact .licontainer:nth-child(2){
-    margin-left: 5%;
-}
-
 
 
 /* css for wechat.html */
@@ -2064,14 +1928,63 @@ li.firstLetter::first-letter{
     height: 100%;
 }
 
-.wechatContainter img {
+.wechatcontainer img {
     margin-top: 30px;
 }
 
-.wechatContainter {
+.wechatcontainer {
     background-color: black;
     height: 520px;
     padding-top: 65px;
     text-align: center;
 }
+
+
+/* css for footer */
+.footer {
+    position: fixed;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size:0.9vw;
+    color:white;
+    background-color: #191c21;
+    opacity: 1;
+    z-index: 1;
+    height: 4.5vw;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer.invisible {
+    display: none;
+}
+
+.author {
+    position: absolute;
+    left: 20%;
+    margin-top: 2vw;
+}
+
+.backtop a {
+    color: white;
+}
+
+.backtop {
+    text-align: right;
+    position: absolute;
+    right: 20%;
+    margin-top: 1.3vw;
+}
+
+.footer i {
+    font-size: 2vw;
+    text-align: end;
+    opacity: 0.6;
+}
+
+.footer i:hover {
+    opacity: 1;
+}
+
 

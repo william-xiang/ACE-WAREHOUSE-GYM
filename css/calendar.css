@@ -425,13 +425,12 @@ html, body {
 .modal-content {
     position: relative;
     background-color: #222222;
-    margin-left: 1.1vw;
-    padding: 0;
     margin-top: 0vw;
     height: 33.5vw;
     border-top: 1px solid white;
     border-bottom: 1px solid white;    
-    width: 92%;
+    width: 93%;
+    margin-left: 1vw;
     font-family: 'Segoe UI', sans-serif;
     font-size: 0.9516837481698389vw;
     font-weight: bold;
@@ -463,11 +462,10 @@ html, body {
 
     /* Modal Content */
     .modal-content {
-        margin-top: -0.1vw;
         height: 90vw;
         border-top: 1px solid white;
         border-bottom: 1px solid white;    
-        width: 90%;
+        width: 92%;
         margin-left: auto;
         margin-right: auto;
         font-family: 'Segoe UI', sans-serif;

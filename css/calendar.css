@@ -13,14 +13,6 @@ html, body {
     background-color: #222222;
 }
 
-@media screen and (max-width: 600px) {
-    .calendar {
-        height: 60vw;
-        width: 45vw;
-        background-color: #222222;
-    }
-}
-
 #header {
     height: 3.660322108345534vw;
     width: 100%;
@@ -90,6 +82,51 @@ html, body {
     position: relative;
 }
 
+
+@media screen and (max-width: 600px) {
+    .calendar {
+        height: 100vw;
+        width: 70vw;
+        background-color: #222222;
+    }
+
+    #header {
+        height: 6vw;
+        width: 100%;
+        background-color: #ec3642;
+    }
+
+    .containerContact #date {
+        font-size: 3vw;
+    }
+
+    #today {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        top: -4.5vw;
+        color: white;
+    }
+    
+    #todaybutton {
+        border-radius: 0.21961932650073207vw;
+        padding: 0.14641288433382138vw 0.29282576866764276vw 0.14641288433382138vw 0.29282576866764276vw;
+        color: #222222;
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 2vw;
+        margin-top: 0.2vw;
+        right: 3.5vw;
+        outline: none;
+    }
+
+    .datelist {
+        height: 20vw;
+        width: 100%;
+        margin-top: 2vw;
+    }
+}
+
 .containerContact .w3-button2{
     border:none;
     display:inline-block;
@@ -102,7 +139,7 @@ html, body {
     text-align:center;
     cursor:pointer;
     white-space:nowrap;
-    font-size: 0.8784773060029283vw;
+    font-size: 2vw;
 }
 
 .containerContact .w3-display-left2{
@@ -111,6 +148,7 @@ html, body {
     left:0%;
     transform:translate(0%,-50%);
     -ms-transform:translate(-0%,-50%);
+
 }
 
 .containerContact .w3-display-right2{
@@ -135,8 +173,8 @@ html, body {
 
 .datelist #datelist {
     height: 100%;
-    margin-left: 1.610541727672035vw;
-    margin-right: 1.610541727672035vw;
+    margin-left: 2.2vw;
+    margin-right: 2.2vw;
 }
 
 #datelist .date {
@@ -189,6 +227,48 @@ html, body {
     margin-top: 0.29282576866764276vw;
 }
 
+@media screen and (max-width: 600px) {
+    #datelist .date {
+        height: 100%;
+        width: 13.9%;
+        float: left;
+        border-left: solid #222222 1px;
+        font-size: 6vw;
+    }
+
+    .date .week {
+        width: 100%;
+        height: 25%;
+        color: white;
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 2.5vw;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2vw;
+    }
+    
+    .date .day {
+        width: 100%;
+        height: 27.5%;
+        color: white;
+        font-family: 'Segoe UI', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 1vw;
+        font-size: 3vw;
+    }
+
+    .date .calendarcircle {
+        width: 100%;
+        height: 26%;
+        font-size: 2vw;
+        color: white;
+        text-align: center;
+        margin-top: 0.29282576866764276vw;
+    }
+}
+
+
 .date .indicator {
     position: relative;
     height: 4%;
@@ -231,6 +311,18 @@ html, body {
     display:inline-block; 
 }
 
+@media screen and (max-width: 600px) {
+    .activeCircle {
+        height:0.5vw;
+        width:0.5vw;
+    }
+    
+    .activeCircle2 {
+        height:0.7vw;
+        width:0.7vw;
+    }
+}
+
 .agenda {
     background-color: #ec3642;
     margin-left: 1.610541727672035vw;
@@ -243,6 +335,21 @@ html, body {
     font-weight: bold;
     color: white;
     line-height: 1.4641288433382138vw;
+}
+
+@media screen and (max-width: 600px) {
+    .agenda {
+        margin-left: 2.5vw;
+        margin-right: 2.3vw;
+        height: 66.5vw;
+        margin-top: 2vw;
+        padding: 0.7320644216691069vw;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 3vw;
+        font-weight: bold;
+        color: white;
+        line-height: 120%;
+    }
 }
 
 .titleView:hover {
@@ -269,6 +376,18 @@ html, body {
     color: white;
     font-size: 0.8784773060029283vw;
     margin-top: 0.14641288433382138vw;
+}
+
+@media screen and (max-width: 600px) {
+    .agenda .agendabutton {
+        height: 3.5vw;
+        width: 7vw;
+        margin-left: 1vw;
+        border-radius: 0.29282576866764276vw;
+        font-size: 2vw;
+        margin-top: 2vw;
+        padding-bottom: 1vw;
+    }
 }
 
 .agenda button:hover {
@@ -321,6 +440,38 @@ html, body {
 @keyframes animatetop {
     from {top:-21.961932650073205vw; opacity:0}
     to {top:0; opacity:1}
+}
+
+@media screen and (max-width: 600px) {
+    .detail {
+        width: 70vw; /* Full width */
+        min-height: 100%; /* Full height */
+        border: solid yellow 1px;
+    }
+
+    /* Modal Content */
+    .modal-content {
+        margin-top: 50.5vw;
+        height: 69vw;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;    
+        width: 95%;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 3vw;
+        font-weight: bold;
+        line-height: 140%;
+    }
+
+    /* Add Animation */
+    @-webkit-keyframes animatetop {
+        from {top:-21.961932650073205vw; opacity:0} 
+        to {top:0; opacity:1}
+    }
+
+    @keyframes animatetop {
+        from {top:-21.961932650073205vw; opacity:0}
+        to {top:0; opacity:1}
+    }
 }
 
 /* The Close Button */

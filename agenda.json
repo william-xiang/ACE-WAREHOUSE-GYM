@@ -1,108 +1,264 @@
 [ {
     "title": "Fit Body Boot Camp",
-    "date": "05/28/2018",
-    "brief": "Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot Camp",
-    "time": "18:30-19:30",
-	"desc": "60 minutes high intensity circuit training",
-	"trainer": "David",
+    "date": "06/25/2018",
+    "brief": "19:00-20:00",
+    "time": "19:00-20:00",
+	"desc": "60 minutes high intensity circuit training <br> 60分钟高强度循环训练",
+	"trainer": "Po",
 	"detail": "训练项目: |动态拉伸|敏捷训练|kick boxing燃脂组合|核心强化"
- },
- {
-    "title": "Opening Time",
-    "date": "05/28/2018",
-    "brief": "Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot Camp",
-	"opendates": "Mon, May 28 - Sat, Jun 02, 2018",
-    "time": "18:30-19:30<br>*Only for members"
  },
  {
     "title": "Fit Body Boot Camp",
-    "date": "05/29/2018",
+    "date": "07/23/2018",
+    "brief": "19:00-20:00",
+    "time": "19:00-20:00",
+    "desc": "60 minutes high intensity circuit training <br> 60分钟高强度循环训练",
+    "trainer": "Po",
+    "detail": "训练项目: |动态拉伸|敏捷训练|kick boxing燃脂组合|核心强化"
+ },
+ {
+    "title": "Fit Body Boot Camp",
+    "date": "07/09/2018",
+    "brief": "19:00-20:00",
+    "time": "19:00-20:00",
+    "desc": "60 minutes high intensity circuit training <br> 60分钟高强度循环训练",
+    "trainer": "Po",
+    "detail": "训练项目: |动态拉伸|敏捷训练|kick boxing燃脂组合|核心强化"
+ },
+{
+    "title": "Fit Body Boot Camp",
+    "date": "06/11/2018",
+    "brief": "19:00-20:00",
+    "time": "19:00-20:00",
+    "desc": "60 minutes high intensity circuit training <br> 60分钟高强度循环训练",
+    "trainer": "Po",
+    "detail": "训练项目: |动态拉伸|敏捷训练|kick boxing燃脂组合|核心强化"
+ },
+{
+    "title": "Free Opening Hour",
+    "date": "06/11/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+{
+    "title": "Free Opening Hour",
+    "date": "06/25/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+ {
+    "title": "Free Opening Hour",
+    "date": "07/23/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+{
+    "title": "Free Opening Hour",
+    "date": "05/10/2018",
+    "brief": "12:00-18:00",
+    "opendates": "Mon, May 28 - Sat, Jun 02, 2018",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+ {
+    "title": "Fit Body Boot Camp",
+    "date": "05/10/2018",
     "brief": "Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot Camp",
     "time": "18:30-19:30",
 	"desc": "60 minutes high intensity circuit training",
-	"trainer": "David",
+	"trainer": "someone",
 	"detail": "训练项目: |动态拉伸|敏捷训练|kick boxing燃脂组合|核心强化"
  },
- 
+{
+    "title": "Free Opening Hour",
+    "date": "06/12/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
  {
-    "title": "Opening Time",
-    "date": "05/29/2018",
-    "brief": "Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot Camp",
-	"opendates": "Mon, May 28 - Sat, Jun 02, 2018",
-    "time": "18:30-19:30 | *Only for members"
+    "title": "Free Opening Hour",
+    "date": "06/26/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
  },
   {
+    "title": "Free Opening Hour",
+    "date": "07/24/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+{
     "title": "Fit Body Boot Camp",
-    "date": "05/30/2018",
+    "date": "06/13/2018",
+    "brief": "19:00-20:00",
+    "time": "19:00-20:00",
+	"desc": "60 minutes high intensity circuit training <br> 60分钟高强度循环训练",
+	"trainer": "Alejandro",
+	"detail": "训练项目: |Strength|Condition"
+ },
+{
+    "title": "Fit Body Boot Camp",
+    "date": "06/27/2018",
+    "brief": "19:00-20:00",
+    "time": "19:00-20:00",
+    "desc": "60 minutes high intensity circuit training <br> 60分钟高强度循环训练",
+    "trainer": "Alejandro",
+    "detail": "训练项目: |Strength|Condition"
+ },
+ {
+    "title": "Fit Body Boot Camp",
+    "date": "07/25/2018",
+    "brief": "19:00-20:00",
+    "time": "19:00-20:00",
+    "desc": "60 minutes high intensity circuit training <br> 60分钟高强度循环训练",
+    "trainer": "Alejandro",
+    "detail": "训练项目: |Strength|Condition"
+ },
+{
+    "title": "Free Opening Hour",
+    "date": "06/13/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+{
+    "title": "Free Opening Hour",
+    "date": "06/27/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+ {
+    "title": "Free Opening Hour",
+    "date": "07/25/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+{
+    "title": "Fit Body Boot Camp",
+    "date": "05/10/2018",
     "brief": "Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot Camp",
     "time": "18:30-19:30",
 	"desc": "60 minutes high intensity circuit training",
-	"trainer": "David",
+	"trainer": "someone",
 	"detail": "训练项目: |动态拉伸|敏捷训练|kick boxing燃脂组合|核心强化"
  },
- 
- {
-    "title": "Opening Time",
-    "date": "05/30/2018",
-    "brief": "Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot Camp",
-	"opendates": "Mon, May 28 - Sat, Jun 02, 2018",
-    "time": "18:30-19:30"
+{
+    "title": "Free Opening Hour",
+    "date": "06/14/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
  },
-  {
+{
+    "title": "Free Opening Hour",
+    "date": "06/28/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+ {
+    "title": "Free Opening Hour",
+    "date": "07/26/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+{
     "title": "Fit Body Boot Camp",
-    "date": "05/31/2018",
+    "date": "06/15/2018",
+    "brief": "19:00-20:00",
+    "time": "19:00-20:00",
+	"desc": "60 minutes high intensity circuit training <br> 60分钟高强度循环训练",
+	"trainer": "Alejandro",
+	"detail": "训练项目: |Strength|Condition"
+ },
+ {
+    "title": "Free Opening Hour",
+    "date": "06/29/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+{
+    "title": "Fit Body Boot Camp",
+    "date": "06/29/2018",
+    "brief": "19:00-20:00",
+    "time": "19:00-20:00",
+    "desc": "60 minutes high intensity circuit training <br> 60分钟高强度循环训练",
+    "trainer": "Alejandro",
+    "detail": "训练项目: |Strength|Condition"
+ },
+ {
+    "title": "Free Opening Hour",
+    "date": "07/27/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+ {
+    "title": "Fit Body Boot Camp",
+    "date": "07/27/2018",
+    "brief": "19:00-20:00",
+    "time": "19:00-20:00",
+    "desc": "60 minutes high intensity circuit training <br> 60分钟高强度循环训练",
+    "trainer": "Alejandro",
+    "detail": "训练项目: |Strength|Condition"
+ },
+{
+    "title": "Free Opening Hour",
+    "date": "06/15/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+{
+    "title": "Free Opening Hour",
+    "date": "06/12/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+{
+    "title": "Fit Body Boot Camp",
+    "date": "05/10/2018",
     "brief": "Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot Camp",
     "time": "18:30-19:30",
 	"desc": "60 minutes high intensity circuit training",
-	"trainer": "David",
+	"trainer": "someone",
 	"detail": "训练项目: |动态拉伸|敏捷训练|kick boxing燃脂组合|核心强化"
  },
- 
+{
+    "title": "Free Opening Hour",
+    "date": "06/16/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
+{
+    "title": "Free Opening Hour",
+    "date": "06/30/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
+ },
  {
-    "title": "Opening Time",
-    "date": "05/31/2018",
-    "brief": "Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot Camp",
-	"opendates": "Mon, May 28 - Sat, Jun 02, 2018",
-    "time": "18:30-19:30"
+    "title": "Free Opening Hour",
+    "date": "07/28/2018",
+    "brief": "12:00-18:00",
+    "time": "12:00-18:00 | *Only for members|*Appoinment booking is needed"
  },
-  {
-    "title": "Fit Body Boot Camp",
-    "date": "06/01/2018",
-    "brief": "Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot Camp",
-    "time": "18:30-19:30",
-	"desc": "60 minutes high intensity circuit training",
-	"trainer": "David",
-	"detail": "训练项目: |动态拉伸|敏捷训练|kick boxing燃脂组合|核心强化"
+{
+    "title": "Closed",
+    "date": "06/17/2018",
+    "brief": "*Open for personal training only",
+    "desc": "*Open for personal training only"
  },
- 
+
+{
+    "title": "Closed",
+    "date": "07/01/2018",
+    "brief": "*Open for personal training only",
+    "desc": "*Open for personal training only"
+ },
  {
-    "title": "Opening Time",
-    "date": "06/01/2018",
-    "brief": "Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot Camp",
-	"opendates": "Mon, May 28 - Sat, Jun 02, 2018",
-    "time": "18:30-19:30"
+    "title": "Closed",
+    "date": "07/29/2018",
+    "brief": "*Open for personal training only",
+    "desc": "*Open for personal training only"
  },
-   {
-    "title": "Fit Body Boot Camp",
-    "date": "06/02/2018",
-    "brief": "Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot Camp",
-    "time": "18:30-19:30",
-	"desc": "60 minutes high intensity circuit training",
-	"trainer": "David",
-	"detail": "训练项目: |动态拉伸|敏捷训练|kick boxing燃脂组合|核心强化"
- },
- 
- {
-    "title": "Opening Time",
-    "date": "06/02/2018",
-    "brief": "Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot Camp",
-	"opendates": "Mon, May 28 - Sat, Jun 02, 2018",
-    "time": "18:30-19:30"
- },
- 
   {
     "title": "Closed",
-    "date": "06/03/2018",
-    "brief": "Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot CampFit Body Boot Camp<br>Fit Body Boot Camp"
+    "date": "07/30/2018",
+    "brief": "*Open for personal training only",
+    "desc": "*Open for personal training only"
  }
 ]

@@ -129,6 +129,7 @@ li.firstLetter::first-letter{
 @media screen and (max-width: 600px) {
     .header {
         background-color: rgba(0, 0, 0, 0);
+        border: solid yellow 1px;
     }
 
     #navigation a {
@@ -139,7 +140,7 @@ li.firstLetter::first-letter{
         position: relative;
         display: block;
         float: left;
-        margin-right: 20%;
+        margin-left: 28%;
     }
 
     #navigation a:first-child img {
@@ -150,7 +151,7 @@ li.firstLetter::first-letter{
         display: block;
         float: right;
         margin-top: 1vw;
-        margin-left: 40%;
+        margin-left: 15%;
         font-size: 6vw;
         outline: none;
     }

@@ -149,7 +149,7 @@ html, body {
 @media screen and (max-width: 600px) {
     .containerContact .w3-button2{
         font-size: 2vw;
-        width: 2vw;
+        width: 3vw;
     }
 }
 
@@ -239,9 +239,9 @@ html, body {
 
 @media screen and (max-width: 600px) {
     .datelist #datelist {
-        margin-left: 2.25vw;
-        margin-right: 2.25vw;
-        width: 93%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
     }
 
     #datelist .date {

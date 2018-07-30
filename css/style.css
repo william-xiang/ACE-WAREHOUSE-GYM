@@ -1924,30 +1924,32 @@ li.firstLetter::first-letter{
     padding-top: 8.78vw;
 }
 
-.containerContact .ulcontainer{
-    display:inline-block;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.calendar {
+    float: left;
+    margin-left: 19vw;
 }
 
-.containerContact .ulcontainer .licontainer {
-    list-style-type:none;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    white-space: nowrap;
+.contact {
+    float: right;
+    margin-right: 19vw;
+    margin-top: -1vw;
+    padding-bottom: 10vw;
 }
 
-.containerContact .licontainer:nth-child(1){
-    margin-right: 5%;
+@media screen and (max-width: 600px) {
+    .calendar {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .contact {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
 }
-
-.containerContact .licontainer:nth-child(2){
-    margin-left: 5%;
-}
-
 
 .contact #title {
     font-family: 'Rozha One', Tahoma, Geneva, Verdana, sans-serif;
@@ -1956,45 +1958,45 @@ li.firstLetter::first-letter{
 }
 
 .containerContact .contact p {
-    margin-top: 10px;
+    margin-top: 0.7320644216691069vw;
     font-family: 'Raleway', sans-serif;
     font-size: 1.1vw;
 }
 
 .contact form {
-    margin-top: 10px;
-    line-height: 35px;
+    margin-top: 0.7320644216691069vw;
+    line-height: 2.562225475841874vw;
     text-align: right;
-    margin-right: 20px;
+    margin-right: 1.4641288433382138vw;
 }
 
 .contact input {
     background-color: #191c21;
     color: white;
-    height: 20px;
-    width: 300px;
-    padding: 5px;
-    margin-top: 5px;
-    border: solid #f2f0b0 2px;
+    height: 1.4641288433382138vw;
+    width: 21.961932650073205vw;
+    padding: 0.36603221083455345vw;
+    margin-top: 0.36603221083455345vw;
+    border: solid #f2f0b0 0.14641288433382138vw;
 }
 
 .contact textarea {
     background-color: #191c21;
     color: white;
-    height: 120px;
-    width: 300px;
-    padding: 5px;
-    border: solid #f2f0b0 2px;
-    margin-top: 5px;
+    height: 8.784773060029282vw;
+    width: 21.961932650073205vw;
+    padding: 0.36603221083455345vw;
+    border: solid #f2f0b0 0.14641288433382138vw;
+    margin-top: 0.36603221083455345vw;
 }
 
 .contact #button {
     color: white;
     background-color: #db234b;
     border: solid #db234b 1px;
-    height: 30px;
-    width: 50px;
-    margin-right: 5px;
+    height: 2.1961932650073206vw;
+    width: 3.660322108345534vw;
+    margin-right: 0.36603221083455345vw;
 }
 
 .contact #button:hover {
@@ -2008,7 +2010,7 @@ li.firstLetter::first-letter{
 }
 
 .wechatcontainer img {
-    margin-top: 30px;
+    margin-top: 2.1961932650073206vw;
 }
 
 .wechatcontainer {

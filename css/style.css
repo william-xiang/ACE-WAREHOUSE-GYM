@@ -118,14 +118,6 @@ li.firstLetter::first-letter{
     border-bottom: solid 0px gray;
 }
 
- hr {
-    border-color:white;
-    background-color: white;
-    color: white;
-    border-top: 0.07vw solid white;
-    border-bottom: solid 0px white;
-}
-
 @media screen and (max-width: 600px) {
     .header {
         background-color: rgba(0, 0, 0, 0);
@@ -1182,7 +1174,6 @@ li.firstLetter::first-letter{
     width: 7.32vw;
 }
 
-
 .trainerspart1 li a{
     text-decoration:none;
     font-family: 'Maven Pro', sans-serif;
@@ -1221,6 +1212,14 @@ li.firstLetter::first-letter{
     background-color: #222222;
     color: white;
     transition-timing-function: ease-in-out;
+}
+
+#trainerspart2 {
+    border-color:white;
+    background-color: white;
+    color: white;
+    border-top: 0.07vw solid white;
+    border-bottom: solid 0px white;
 }
 
 .trainerspart2 {

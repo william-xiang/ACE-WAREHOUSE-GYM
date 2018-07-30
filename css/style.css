@@ -163,7 +163,7 @@ li.firstLetter::first-letter{
 .part1 {
     background: url(../img/img0.jpg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
     background-position: 0px, 150px;
     border: solid rgba(0, 0, 0, 0) 0.1px;
     width: 100%;

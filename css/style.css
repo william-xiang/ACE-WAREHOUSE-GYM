@@ -1027,6 +1027,7 @@ li.firstLetter::first-letter{
     height: 42vw;
     background: url(../img/img7.jpg);
     background-size: cover;
+    padding-bottom: 5vw;
 }
 
 .classesPart4 #part1, .classesPart4 #part2 {
@@ -1071,7 +1072,6 @@ li.firstLetter::first-letter{
 .classesPart4 .more {
     margin-top: 3vw;
     margin-left: 3vw;
-    margin-bottom: 4vw;
 }
 
 .classesPart4 .more a {

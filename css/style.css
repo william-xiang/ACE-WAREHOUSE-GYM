@@ -129,7 +129,6 @@ li.firstLetter::first-letter{
 @media screen and (max-width: 600px) {
     .header {
         background-color: rgba(0, 0, 0, 0);
-        border: solid yellow 1px;
     }
 
     #navigation a {

@@ -1587,15 +1587,14 @@ li.firstLetter::first-letter{
 }
 
 .programscontainer {
-    height: 580px;
-    padding-top: 65px;
+    padding-top: 13vw;
     text-align: center;
 }
 
 .programscontainer .coming {
     height: 100%;
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+    font-size: 3.66vw;
     letter-spacing: 6px;
     font-weight: bolder;
     color: #ec3642;
@@ -1633,22 +1632,22 @@ li.firstLetter::first-letter{
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes coming {
     0%    {opacity: 0; margin-top: 0px;}
-    100%  {opacity: 1; margin-top: -50px;}
+    100%  {opacity: 1; margin-top: 5vw;}
 }
 
 @-moz-keyframes coming {
     0%    {opacity: 0; margin-top: 0px;}
-    100%  {opacity: 1; margin-top: 50px;}
+    100%  {opacity: 1; margin-top: 5vw;}
 }
 
 
 .programscontainer .ace {
     font-family: 'Raleway', sans-serif;
     float: right;
-    font-size: 15px;
+    margin-top: -5vw;
+    font-size: 1.1vw;
     font-weight: bold;
     width: 100%;
-    margin-top: -310px;
     -webkit-animation-name: ace; 
     -webkit-animation-duration: 2s; 
     -webkit-animation-fill-mode: forwards;
@@ -1660,15 +1659,16 @@ li.firstLetter::first-letter{
     animation-fill-mode: forwards;
 }
 
+
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes ace {
-    0%    {opacity: 0; margin-top: -270px;}
-    100%  {opacity: 1; margin-top: -300px;}
+    0%    {opacity: 0;}
+    100%  {opacity: 1;}
 }
 
 @-moz-keyframes ace {
-    0%    {opacity: 0; margin-top: -270px;}
-    100%  {opacity: 1; margin-top: -300px;}
+    0%    {opacity: 0;}
+    100%  {opacity: 1;}
 }
 
 

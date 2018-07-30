@@ -1939,7 +1939,7 @@ li.firstLetter::first-letter{
 @media screen and (max-width: 600px) {
     .calendar {
         float: none;
-        width: 60%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }

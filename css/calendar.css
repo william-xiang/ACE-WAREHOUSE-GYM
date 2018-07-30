@@ -8,13 +8,21 @@ html, body {
 }
 
 .calendar {
-    height: 540px;
-    width: 350px;
+    height: 39.53147877013177vw;
+    width: 25.62225475841874vw;
     background-color: #222222;
 }
 
+@media screen and (max-width: 600px) {
+    .calendar {
+        height: 60vw;
+        width: 45vw;
+        background-color: #222222;
+    }
+}
+
 #header {
-    height: 50px;
+    height: 3.660322108345534vw;
     width: 100%;
     background-color: #ec3642;
 }
@@ -26,7 +34,7 @@ html, body {
     color: #444444;
     font-family: 'Maven Pro', sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.3177159590043923vw;
 }
 
 #datetext {
@@ -54,30 +62,30 @@ html, body {
     display: inline-block;
     width: 100%;
     height: 100%;
-    top: -40px;
+    top: -2.9282576866764276vw;
     color: white;
 }
 
 #todaybutton {
     position: absolute;
     background-color: #ec3642;
-    border: solid #222222 1px;
-    border-radius: 3px;
-    padding: 2px 4px 2px 4px;
+    border: solid #222222 0.07320644216691069vw;
+    border-radius: 0.21961932650073207vw;
+    padding: 0.14641288433382138vw 0.29282576866764276vw 0.14641288433382138vw 0.29282576866764276vw;
     color: #222222;
     font-family: 'Maven Pro', sans-serif;
-    font-size: 10px;
-    margin-top: 7px;
-    right: 10px;
+    font-size: 0.7320644216691069vw;
+    margin-top: 0.5124450951683748vw;
+    right: 0.7320644216691069vw;
     outline: none;
 }
 
 .datelist {
-    height: 90px;
+    height: 6.588579795021962vw;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 1.1vw;
     background-color: #222222;
     position: relative;
 }
@@ -85,7 +93,7 @@ html, body {
 .containerContact .w3-button2{
     border:none;
     display:inline-block;
-    padding:37px 8px;
+    padding:2.7086383601756956vw 0.5856515373352855vw;
     vertical-align:middle;
     overflow:hidden;
     text-decoration:none;
@@ -94,7 +102,7 @@ html, body {
     text-align:center;
     cursor:pointer;
     white-space:nowrap;
-    font-size: 12px;
+    font-size: 0.8784773060029283vw;
 }
 
 .containerContact .w3-display-left2{
@@ -127,8 +135,8 @@ html, body {
 
 .datelist #datelist {
     height: 100%;
-    margin-left: 22px;
-    margin-right: 22px;
+    margin-left: 1.610541727672035vw;
+    margin-right: 1.610541727672035vw;
 }
 
 #datelist .date {
@@ -137,7 +145,7 @@ html, body {
     width: 13.9%;
     float: left;
     border-left: solid #222222 1px;
-    font-size: 15px;
+    font-size: 1.1vw;
     color: white;
     text-align: center;
     -webkit-transition: 300ms;
@@ -152,35 +160,33 @@ html, body {
 .date .week {
     width: 100%;
     height: 25%;
-    font-size: 15px;
     color: white;
     font-family: 'Maven Pro', sans-serif;
-    font-size: 12px;
+    font-size: 0.8784773060029283vw;
     font-weight: bold;
     text-align: center;
-    margin-top: 7px;
+    margin-top: 0.5124450951683748vw;
 }
 
 .date .day {
     width: 100%;
     height: 27.5%;
-    font-size: 15px;
     color: white;
     font-family: 'Segoe UI', sans-serif;
-    font-size: 12px;
+    font-size: 0.8784773060029283vw;
     font-weight: bold;
     text-align: center;
-    padding-top: 5px;
-    font-size: 20px;
+    padding-top: 0.36603221083455345vw;
+    font-size: 1.4641288433382138vw;
 }
 
 .date .calendarcircle {
     width: 100%;
     height: 25%;
-    font-size: 15px;
+    font-size: 1.1vw;
     color: white;
     text-align: center;
-    margin-top: 4px;
+    margin-top: 0.29282576866764276vw;
 }
 
 .date .indicator {
@@ -189,7 +195,7 @@ html, body {
     width: 99%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 15px;
+    font-size: 1.1vw;
     color: white;
     text-align: center;
     -webkit-transition: 300ms;
@@ -208,8 +214,8 @@ html, body {
 .activeCircle {
     background-color: rgb(21,143,90);
     cursor:pointer;
-    height:4px;
-    width:4px;
+    height:0.29282576866764276vw;
+    width:0.29282576866764276vw;
     border: solid rgb(21,143,90) 1px;
     border-radius:50%;
     display:inline-block; 
@@ -218,8 +224,8 @@ html, body {
 .activeCircle2 {
     background-color: rgb(21,143,90);
     cursor:pointer;
-    height:5px;
-    width:5px;
+    height:0.36603221083455345vw;
+    width:0.36603221083455345vw;
     border: solid rgb(21,143,90) 1px;
     border-radius:50%;
     display:inline-block; 
@@ -227,16 +233,16 @@ html, body {
 
 .agenda {
     background-color: #ec3642;
-    margin-left: 22px;
-    margin-right: 22px;
-    height: 330px;
-    margin-top: 15px;
-    padding: 10px;
+    margin-left: 1.610541727672035vw;
+    margin-right: 1.610541727672035vw;
+    height: 24.158125915080525vw;
+    margin-top: 1.0980966325036603vw;
+    padding: 0.7320644216691069vw;
     font-family: 'Segoe UI', sans-serif;
-    font-size: 13px;
+    font-size: 0.9516837481698389vw;
     font-weight: bold;
     color: white;
-    line-height: 20px;
+    line-height: 1.4641288433382138vw;
 }
 
 .titleView:hover {
@@ -252,17 +258,17 @@ html, body {
 }
 
 .agenda .agendabutton {
-    height: 19px;
-    width: 40px;
-    margin-left: 10px;
+    height: 1.390922401171303vw;
+    width: 2.9282576866764276vw;
+    margin-left: 0.7320644216691069vw;
     outline: none;
     background-color: rgba(0, 0, 0, 0);
     border: solid white 1px;
     border-radius: 4px;
     font-family: 'Segoe UI', sans-serif;
     color: white;
-    font-size: 12px;
-    margin-top: 2px;
+    font-size: 0.8784773060029283vw;
+    margin-top: 0.14641288433382138vw;
 }
 
 .agenda button:hover {
@@ -274,7 +280,7 @@ html, body {
     position: absolute; /* Stay in place */
     z-index: 1; /* Sit on top */
     top: 0;
-    width: 348px; /* Full width */
+    width: 25.47584187408492vw; /* Full width */
     min-height: 100%; /* Full height */
     margin-left: auto;
     margin-right: auto;
@@ -289,17 +295,17 @@ html, body {
     background-color: #222222;
     margin: auto;
     padding: 0;
-    margin-top: 192px;
-    height: 460px;
+    margin-top: 14.055636896046853vw;
+    height: 33.674963396778914vw;
     border-top: 1px solid white;
     border-bottom: 1px solid white;    
     width: 90%;
     font-family: 'Segoe UI', sans-serif;
-    font-size: 13px;
+    font-size: 0.9516837481698389vw;
     font-weight: bold;
     line-height: 140%;
     color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 0.29282576866764276vw 0.5856515373352855vw 0 rgba(0,0,0,0.2),0 0.43923865300146414vw 1.4641288433382138vw 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -308,12 +314,12 @@ html, body {
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
+    from {top:-21.961932650073205vw; opacity:0} 
     to {top:0; opacity:1}
 }
 
 @keyframes animatetop {
-    from {top:-300px; opacity:0}
+    from {top:-21.961932650073205vw; opacity:0}
     to {top:0; opacity:1}
 }
 
@@ -331,17 +337,17 @@ html, body {
     cursor: pointer;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {padding: 0.14641288433382138vw 1.171303074670571vw;}
 
 .modal-footer {
-    padding: 2px 16px;
+    padding: 0.14641288433382138vw 1.171303074670571vw;
     background-color: #5cb85c;
     color: white;
 }
 
 .descspan {
     position: relative;
-    width: 50px;
+    width: 3.660322108345534vw;
     overflow-wrap: break-word;
     word-wrap: break-word;
     -ms-word-break: break-all;

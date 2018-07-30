@@ -130,7 +130,7 @@ html, body {
 .containerContact .w3-button2{
     border:none;
     display:inline-block;
-    padding:2.7086383601756956vw 0.5856515373352855vw;
+    padding:2.7086383601756956vw 0.3856515373352855vw;
     vertical-align:middle;
     overflow:hidden;
     text-decoration:none;
@@ -139,7 +139,13 @@ html, body {
     text-align:center;
     cursor:pointer;
     white-space:nowrap;
-    font-size: 2vw;
+    font-size: 0.8784773060029283vw;
+}
+
+@media screen and (max-width: 600px) {
+    .containerContact .w3-button2{
+        font-size: 2vw;
+    }
 }
 
 .containerContact .w3-display-left2{
@@ -173,8 +179,8 @@ html, body {
 
 .datelist #datelist {
     height: 100%;
-    margin-left: 2.2vw;
-    margin-right: 2.2vw;
+    margin-left: 1.55vw;
+    margin-right: 1.55vw;
 }
 
 #datelist .date {
@@ -230,7 +236,7 @@ html, body {
 @media screen and (max-width: 600px) {
     #datelist .date {
         height: 100%;
-        width: 13.9%;
+        width: 13.7%;
         float: left;
         border-left: solid #222222 1px;
         font-size: 6vw;
@@ -412,13 +418,13 @@ html, body {
 .modal-content {
     position: relative;
     background-color: #222222;
-    margin: auto;
+    margin-left: 1.1vw;
     padding: 0;
-    margin-top: 14.055636896046853vw;
-    height: 33.674963396778914vw;
+    margin-top: 13vw;
+    height: 34.5vw;
     border-top: 1px solid white;
     border-bottom: 1px solid white;    
-    width: 90%;
+    width: 92%;
     font-family: 'Segoe UI', sans-serif;
     font-size: 0.9516837481698389vw;
     font-weight: bold;
@@ -451,11 +457,11 @@ html, body {
 
     /* Modal Content */
     .modal-content {
-        margin-top: 50.5vw;
-        height: 69vw;
+        margin-top: 28.5vw;
+        height: 92vw;
         border-top: 1px solid white;
         border-bottom: 1px solid white;    
-        width: 95%;
+        width: 96%;
         font-family: 'Segoe UI', sans-serif;
         font-size: 3vw;
         font-weight: bold;

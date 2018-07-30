@@ -150,7 +150,6 @@ html, body {
     .containerContact .w3-button2{
         font-size: 2vw;
         width: 3vw;
-        border: solid yellow 1px;
     }
 }
 
@@ -242,7 +241,7 @@ html, body {
     .datelist #datelist {
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
+        width: 90%;
     }
 
     #datelist .date {
@@ -360,8 +359,8 @@ html, body {
 
 @media screen and (max-width: 600px) {
     .agenda {
-        margin-left: 2.5vw;
-        margin-right: 2.3vw;
+        margin-left: 3.75vw;
+        margin-right: 3.68vw;
         height: 66.5vw;
         margin-top: 2vw;
         padding: 0.7320644216691069vw;
@@ -435,8 +434,8 @@ html, body {
     background-color: #222222;
     margin-left: 1.1vw;
     padding: 0;
-    margin-top: 13vw;
-    height: 34.5vw;
+    margin-top: 0vw;
+    height: 33.5vw;
     border-top: 1px solid white;
     border-bottom: 1px solid white;    
     width: 92%;
@@ -449,7 +448,7 @@ html, body {
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
 }
 
 /* Add Animation */
@@ -471,11 +470,13 @@ html, body {
 
     /* Modal Content */
     .modal-content {
-        margin-top: -0.2vw;
+        margin-top: -0.1vw;
         height: 90vw;
         border-top: 1px solid white;
         border-bottom: 1px solid white;    
-        width: 96%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
         font-family: 'Segoe UI', sans-serif;
         font-size: 3vw;
         font-weight: bold;

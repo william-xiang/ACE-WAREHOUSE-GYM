@@ -118,6 +118,14 @@ li.firstLetter::first-letter{
     border-bottom: solid 0px gray;
 }
 
+ hr {
+    border-color:white;
+    background-color: white;
+    color: white;
+    border-top: 0.07vw solid white;
+    border-bottom: solid 0px white;
+}
+
 @media screen and (max-width: 600px) {
     .header {
         background-color: rgba(0, 0, 0, 0);
@@ -1100,17 +1108,16 @@ li.firstLetter::first-letter{
 
 .trainerspart1 .contactBox {
     position: relative;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 220px;
-    top: 160px;
     text-align: right;
-    width: 500px;
-    height: 290px;
-    margin-top: 50px;
+    width: 36.6vw;
+    height: 21.23vw;
     background: url(../img/white.png);
-    padding-right: 15px;
-    padding-top: 15px;
+    padding-right: 1.1vw;
+    padding-top: 1.1vw;
 
     -webkit-animation-name: buttons1; 
     -webkit-animation-duration: 2s; 
@@ -1136,7 +1143,7 @@ li.firstLetter::first-letter{
 
 .trainerspart1 .contactBox p {
     font-family: 'Maven Pro', sans-serif;
-    font-size: 50px;
+    font-size: 3.66vw;
     font-weight: bold;
     letter-spacing: 4px;
     line-height: 110%;
@@ -1152,34 +1159,34 @@ li.firstLetter::first-letter{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 35px;
+    padding-top: 2.56vw;
 }
 
 .trainerspart1 li:nth-child(1) {
     list-style-type:none;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 120px;
-    margin-top: 15px;
+    margin-left: 0.73vw;
+    margin-right: 8.78vw;
+    margin-top: 1.1vw;
     white-space: nowrap;
 }
 
 .trainerspart1 li:nth-child(2) {
     list-style-type:none;
     display: inline-block;
-    margin-left: 120px;
+    margin-left: 10vw;
     white-space: nowrap;
 }
 
 .trainerspart1 li:nth-child(2) img {
-    width: 100px;
+    width: 7.32vw;
 }
 
 
 .trainerspart1 li a{
     text-decoration:none;
     font-family: 'Maven Pro', sans-serif;
-    font-size:16px;
+    font-size:1.1vw;
     font-weight: bold;
 	color:#222222;
     cursor:pointer;
@@ -1194,13 +1201,13 @@ li.firstLetter::first-letter{
 .trainerspart1 .more a {
     border: solid #222222 1px;
     border-radius: 2px;
-    padding: 8px 50px 8px 50px;
+    padding: 0.5vw 2.6vw 0.5vw 2.6vw;
     background-color: rgba(0, 0, 0, 0);
     color: #222222;
     text-decoration:none;
     cursor: pointer;
     font-family: 'Maven Pro', sans-serif;
-    font-size: 15px;
+    font-size: 1.1vw;
     font-weight: bold;
     z-index: 50;
     opacity: 1;
@@ -1216,75 +1223,69 @@ li.firstLetter::first-letter{
     transition-timing-function: ease-in-out;
 }
 
-.trainers #anchor2 {
-    position: relative;
-    top: -30px;
-    visibility: hidden;
-}
-
 .trainerspart2 {
     background-color: black;
     padding-left: 13%;
 }
 
 .lv1container {
-    padding-top: 40px;
+    padding-top: 2.93vw;
 }
 
 .lv1container div {
-    padding-left: 20px;
-    padding-top: 30px;
+    padding-left: 1.46vw;
+    padding-top: 2.2vw;
 }
 
 .lv1container img {
-    width: 250px;
+    width: 18.3vw;
 }
 
 .lv1container .lv1 {
     font-family: 'Maven Pro', sans-serif;
-    font-size: 38px;
+    font-size: 2.78vw;
 }
 
 .lv1container .name {
     font-family: 'Lobster', cursive;
-    font-size: 38px;
-    margin-top: 5px;
+    font-size: 2.78vw;
+    margin-top: 0.37vw;
 }
 
 .lv1container .desc {
     font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
-    margin-top: 5px;
+    font-size: 1.32vw;
+    margin-top: 0.37vw;
 }
 
 .lv2container {
-    padding-top: 100px;
-    padding-bottom: 100px;   
+    padding-top: 7.32vw;
+    padding-bottom: 7.32vw;   
 }
 
 .lv2container div {
-    padding-top: 30px;
+    padding-top: 2.2vw;
 }
 
 .lv2container img {
-    width: 250px;
+    width: 18.3vw;
 }
 
 .lv2container .lv2 {
     font-family: 'Maven Pro', sans-serif;
-    font-size: 35px;
+    font-size: 2.56vw;
 }
 
 .lv2container .name {
     font-family: 'Lobster', cursive;
-    font-size: 38px;
-    margin-top: 5px;
+    font-size: 2.78vw;
+    margin-top: 0.37vw;
 }
 
 .lv2container .desc {
     font-family: 'Quicksand', sans-serif;
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 1.1vw;
+    margin-top: 0.37vw;
 }
 
 .lv2container ul{
@@ -1292,14 +1293,14 @@ li.firstLetter::first-letter{
     display: flex;
     align-items: left;
     justify-content: left;
-    margin-right: 40px;
-    margin-left: 20px;
+    margin-right: 2.93vw;
+    margin-left: 1.46vw;
 }
 
 .lv2container li{
     list-style-type:none;
     display: inline-block;
-    max-width: 180px;
+    max-width: 13.2vw;
     white-space: nowrap;
 }
 
@@ -1307,24 +1308,22 @@ li.firstLetter::first-letter{
     list-style-type:none;
     display: inline-block;
     white-space: nowrap;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 8.78vw;
+    margin-right: 8.78vw;
 }
 
 .trainerspart3 {
     background: url(../img/img2.jpg);
     background-size: cover;
-    height: 600px;
-    padding-left: 25px;
-    padding-top: 25px;
+    padding-top: 13vw;
+    padding-bottom: 15vw;
 }
 
 .trainerspart3 .contactBoxContainer {
     position: relative;
     text-align: right;
-    width: 500px;
-    height: 200px;
-    top: 160px;
+    width: 36.6vw;
+    height: 14.6vw;
     background: url(../img/white.png);
     text-align: center;
     margin-left: auto;
@@ -1379,7 +1378,7 @@ li.firstLetter::first-letter{
 .trainerspart3 .contactBox a {
     font-family: 'Maven Pro', sans-serif;
     color: #ec3642;
-    font-size: 40px;
+    font-size: 2.93vw;
     font-weight: bold;
     letter-spacing: 4px;
     text-decoration:none;
@@ -1399,18 +1398,18 @@ li.firstLetter::first-letter{
 }
 
 .trainerspart3 .contactBox {
-    width: 500px;
-    height: 200px;
-    margin-left: -25px;
-    margin-top: -25px;
+    width: 36.6vw;
+    height: 14.6vw;
+    margin-left: -1.83vw;
+    margin-top: -1.83vw;
     border: solid white 1px;
 }
 
 .trainerspart3 .inner {
     width: 100%;
     height: 100%;
-    margin-left: 25px;
-    margin-top: 25px;
+    margin-left: 1.83vw;
+    margin-top: 1.83vw;
 }
 
 

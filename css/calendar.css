@@ -72,6 +72,10 @@ html, body {
     outline: none;
 }
 
+.datelistcontainer {
+    position: relative;
+}
+
 .datelist {
     height: 6.588579795021962vw;
     width: 100%;
@@ -145,6 +149,7 @@ html, body {
 @media screen and (max-width: 600px) {
     .containerContact .w3-button2{
         font-size: 2vw;
+        width: 2vw;
     }
 }
 
@@ -154,7 +159,6 @@ html, body {
     left:0%;
     transform:translate(0%,-50%);
     -ms-transform:translate(-0%,-50%);
-
 }
 
 .containerContact .w3-display-right2{
@@ -234,12 +238,22 @@ html, body {
 }
 
 @media screen and (max-width: 600px) {
+    .datelist #datelist {
+        margin-left: 2.25vw;
+        margin-right: 2.25vw;
+        width: 93%;
+    }
+
     #datelist .date {
         height: 100%;
-        width: 13.7%;
-        float: left;
-        border-left: solid #222222 1px;
-        font-size: 6vw;
+        border-left: solid #222222 0.07320644216691069vw;
+        font-size: 7vw;
+        display: inline-block;
+        display: -moz-inline-box;
+        *display: inline; /* For IE7 */
+        zoom: 1; /* Trigger hasLayout */
+        width: 13.96%;
+        text-align: center;
     }
 
     .date .week {
@@ -456,8 +470,8 @@ html, body {
 
     /* Modal Content */
     .modal-content {
-        margin-top: 28.5vw;
-        height: 92vw;
+        margin-top: -0.2vw;
+        height: 90vw;
         border-top: 1px solid white;
         border-bottom: 1px solid white;    
         width: 96%;

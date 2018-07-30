@@ -132,6 +132,7 @@ li.firstLetter::first-letter{
     #navigation a.icon {
         display: block;
         float: right;
+        margin-top: 1vw;
         margin-left: 40%;
         font-size: 6vw;
     }
@@ -145,7 +146,8 @@ li.firstLetter::first-letter{
     }
 
     #headerInvisible .link {
-        width: 80%;
+        margin-top: 2vw;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
         background-color: #fff;
@@ -172,7 +174,7 @@ li.firstLetter::first-letter{
 .part1Container {
     position: relative;
     margin-left: 24%;
-    margin-top: 12vw;
+    margin-top: 8vw;
     margin-bottom: 5vw;
 
     -webkit-animation-name: buttons; 

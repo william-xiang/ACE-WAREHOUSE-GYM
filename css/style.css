@@ -1947,7 +1947,7 @@ li.firstLetter::first-letter{
     }
     
     .contact {
-        width: 66.5%;
+        width: 100%;
         float: none;
         margin-left: auto;
         margin-right: auto;
@@ -1981,6 +1981,15 @@ li.firstLetter::first-letter{
         margin-right: 0vw;
         margin-top: 2vw;
     }
+
+    .contact #title {
+        font-size: 5vw;
+    }
+    
+    .containerContact .contact p {
+        font-size: 2vw;
+    }
+    
 }
 
 .contact input {
@@ -2014,15 +2023,23 @@ li.firstLetter::first-letter{
 
 @media screen and (max-width: 600px) {
     .contact input {
-        font-size: 1.1vw;
+        width: 40vw;
+        height: 6vw;
+        font-size: 4vw;
+        margin-top: 2vw;
     }
     
     .contact textarea {
-        font-size: 1.1vw;
+        width: 40vw;
+        height: 12vw;
+        font-size: 4vw;
+        margin-top: 2vw;
     }
     
     .contact #button {
-        font-size: 1.1vw;
+        width: 15vw;
+        height: 6vw;
+        font-size: 4vw;
     }
 }
 

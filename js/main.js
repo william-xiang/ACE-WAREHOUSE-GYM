@@ -128,17 +128,20 @@ document.addEventListener('scroll', function() {
     index = 3;
   }
 
-  if(y_scroll_pos < 1330) {
+  if(y_scroll_pos < 600) {
     indexindex = 1;
   }
-  else if (y_scroll_pos >= 1330 && y_scroll_pos < 2180) {
+  else if (y_scroll_pos >= 600 && y_scroll_pos < 980) {
     indexindex = 2;
   }
-  else if (y_scroll_pos >= 2180 && y_scroll_pos < 2680) {
+  else if (y_scroll_pos >= 980 && y_scroll_pos < 1780) {
     indexindex = 3;
   }
-  else {
+  else if (y_scroll_pos >= 1780 && y_scroll_pos < 2150) {
     indexindex = 4;
+  }
+  else {
+    indexindex = 5;
   }
 
   if(y_scroll_pos < 130) {

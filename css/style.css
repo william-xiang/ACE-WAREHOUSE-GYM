@@ -121,6 +121,7 @@ li.firstLetter::first-letter{
 @media screen and (max-width: 600px) {
     .header {
         background-color: rgba(0, 0, 0, 0);
+        position: relative;
     }
 
     #navigation a {
@@ -131,7 +132,7 @@ li.firstLetter::first-letter{
         position: relative;
         display: block;
         float: left;
-        margin-left: 26.5%;
+        margin-left: 30%;
     }
 
     #navigation a:first-child img {
@@ -776,10 +777,7 @@ li.firstLetter::first-letter{
 @media screen and (max-width: 600px) {
     .classescontainer .classesPart1Container .classesPart1 {
         margin-top: 0vw;
-    }
-
-    .classescontainer .classesPart1Container .classesPart1 .headerInvisible{
-        padding-top: 4vw;
+        padding-top: 0vw;
     }
 
     .classesPart1 .content {

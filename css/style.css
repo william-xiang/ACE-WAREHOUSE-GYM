@@ -1927,6 +1927,7 @@ li.firstLetter::first-letter{
 .calendar {
     float: left;
     margin-left: 19vw;
+    border: solid yellow 1px;
 }
 
 .contact {
@@ -1934,11 +1935,13 @@ li.firstLetter::first-letter{
     margin-right: 19vw;
     margin-top: -1vw;
     padding-bottom: 10vw;
+    border: solid yellow 1px;
 }
 
 @media screen and (max-width: 600px) {
     .calendar {
         float: none;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }

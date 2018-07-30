@@ -111,11 +111,10 @@ li.firstLetter::first-letter{
 }
 
 #headerInvisible hr {
-    /* border-color:gray;
-    background-color: gray; */
+    border: none;
     color: gray;
-    /* border-top: 0.5vw solid gray;
-    border-bottom: solid 0px gray; */
+    background-color: gray;
+    height: 0.2vw;
 }
 
 @media screen and (max-width: 600px) {

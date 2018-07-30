@@ -150,6 +150,7 @@ html, body {
     .containerContact .w3-button2{
         font-size: 2vw;
         width: 3vw;
+        border: solid yellow 1px;
     }
 }
 

@@ -1380,7 +1380,7 @@ li.firstLetter::first-letter{
     color: #ec3642;
     font-size: 2.93vw;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 0.29vw;
     text-decoration:none;
     cursor: pointer;
     -webkit-transition: 600ms;

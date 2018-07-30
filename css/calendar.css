@@ -181,17 +181,15 @@ html, body {
     transition-timing-function: ease-in-out;
 }
 
-.datelist #datelist {
+#datelist {
+    display: grid;
+    width: 100%;
     height: 100%;
-    margin-left: 1.55vw;
-    margin-right: 1.55vw;
+    grid-template-columns: 4.5% 13% 13% 13% 13% 13% 13% 13% auto;
 }
 
 #datelist .date {
     background-color: #ec3642;
-    height: 100%;
-    width: 13.9%;
-    float: left;
     border-left: solid #222222 1px;
     font-size: 1.1vw;
     color: white;
@@ -201,7 +199,7 @@ html, body {
 }
 
 #datelist .notcurrentdate:hover {
-    background-color: #e0333f;
+    background-color: #aa222b;
     transition-timing-function: ease-in-out;
 }
 
@@ -241,18 +239,13 @@ html, body {
     .datelist #datelist {
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        width: 100%;
     }
 
     #datelist .date {
         height: 100%;
         border-left: solid #222222 0.07320644216691069vw;
         font-size: 7vw;
-        display: inline-block;
-        display: -moz-inline-box;
-        *display: inline; /* For IE7 */
-        zoom: 1; /* Trigger hasLayout */
-        width: 14%;
         text-align: center;
     }
 

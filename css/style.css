@@ -5,6 +5,7 @@
 
 body {
     color: white;
+    background-color: #222222;
 }
 
 .anchor {
@@ -135,6 +136,7 @@ li.firstLetter::first-letter{
         margin-top: 1vw;
         margin-left: 40%;
         font-size: 6vw;
+        outline: none;
     }
 
     #headerInvisible {
@@ -732,89 +734,26 @@ li.firstLetter::first-letter{
 }
 
 
-/* css for joinus.php */
-.joinus {
-    background-color: black;
-}
-
-.containerContact {
-    height: 650px;
-    padding-top: 120px;
-}
-
-.contact #title {
-    font-family: 'Rozha One', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
-    color: #ec3642;
-}
-
-.containerContact .contact p {
-    margin-top: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-}
-
-.contact form {
-    margin-top: 10px;
-    line-height: 35px;
-    text-align: right;
-    margin-right: 20px;
-}
-
-.contact input {
-    background-color: #191c21;
-    color: white;
-    height: 20px;
-    width: 300px;
-    padding: 5px;
-    margin-top: 5px;
-    border: solid #f2f0b0 2px;
-}
-
-.contact textarea {
-    background-color: #191c21;
-    color: white;
-    height: 120px;
-    width: 300px;
-    padding: 5px;
-    border: solid #f2f0b0 2px;
-    margin-top: 5px;
-}
-
-.contact #button {
-    color: white;
-    background-color: #db234b;
-    border: solid #db234b 1px;
-    height: 30px;
-    width: 50px;
-    margin-right: 5px;
-}
-
-.contact #button:hover {
-    cursor: pointer;
-}
-
-
 /* css for classes */
 .classescontainer .classesPart1Container {
-    height: 45vw;
-    padding-top: 5vw;
-
+    /* height: 45vw; */
+    /* padding-top: 4vw; */
 }
 
 .classescontainer .classesPart1Container .classesPart1 {
     background: url(../img/newgraffitiv3.jpg);
     background-size: cover;
-    background-position: center;
     height: 100%;
+    margin-top: 5vw;
     -webkit-transition: 1000ms;
     transition: 1000ms;
+    padding-top: 9vw;
+    padding-bottom: 10vw;
 }
 
 .classesPart1Container .classesPart1:hover {
     background: url(../img/newgraffitiv2.jpg);
     background-size: cover;
-    background-position: center;
     height: 100%;
     transition-timing-function: ease-in-out;
 }
@@ -826,9 +765,17 @@ li.firstLetter::first-letter{
     border: solid white 1px;
     margin-left: auto;
     margin-right: auto;
-    top: 11vw;
-    padding-top: 1vw;
     visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .classescontainer .classesPart1Container .classesPart1 {
+        margin-top: 0vw;
+    }
+
+    .classesPart1 .content {
+        margin-top: 10vw;
+    }
 }
 
 .classesPart1 .contentActive {
@@ -1463,6 +1410,173 @@ li.firstLetter::first-letter{
 }
 
 
+/* clients */
+.clients {
+    background: url(../img/img6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.clientsPart1 {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 500px;
+    top: 50px;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-left: 24px solid #ec3642;
+	border-bottom: 12px solid transparent;
+}
+
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-right: 24px solid #ec3642;
+	border-bottom: 12px solid transparent;
+}
+
+.clientsPart1 ul{
+    display:inline-block;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+
+.clientsPart1 li{
+    list-style-type:none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+
+.clientsPart1 li:nth-child(2){
+    list-style-type:none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    white-space: nowrap;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: gray;
+}
+
+.businessPart2 ul p {
+    height: 100%;
+    
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Opera, and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+}
+
+.clientsPart1 .demo {
+    padding-top: 60px;
+    height: 200px;
+    -webkit-animation-name: demo; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: demo; 
+    -moz-animation-duration: 2s; 
+    -moz-animation-fill-mode: forwards;
+    animation-name: demo;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes demo {
+    0%    {opacity: 0; margin-top: 90px}
+    100%  {opacity: 1; margin-top: 0px}
+}
+
+@-moz-keyframes demo {
+    0%    {opacity: 0; margin-top: 90px}
+    100%  {opacity: 1; margin-top: 0px}
+}
+
+.clientsPart1 .demo li{
+    list-style-type:none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    height: 240px;
+}
+
+.clientsPart1 .demo li:nth-child(2){
+    list-style-type:none;
+    display: inline-block;
+    margin-left: 45px;
+    margin-right: 45px;
+    white-space: nowrap;
+}
+
+.demo img {
+    height: 240px;
+}
+
+.hr {
+    position: relative;
+    top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clientsPart2 .enjoy {
+    padding-top: 120px;
+
+}
+
+.enjoy img {
+    width: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clientsPart2 .slideContainer {
+    position: relative;
+    height:450px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20px;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.clientsPart2 .slideContainer .slides {
+    height:100%;
+    display:none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* css for program */
 .programsHtml, .programsindex {
     height: 100%;
@@ -1641,7 +1755,6 @@ li.firstLetter::first-letter{
 @keyframes animaterleft{from{right:-60vw;opacity:0} to{right:0;opacity:1}}
 
 
-
 .businessPart2 {
     position: relative;
     background-color: rgba(0, 0, 0, 0.4);
@@ -1756,173 +1869,67 @@ li.firstLetter::first-letter{
 }
 
 
-
-/* clients */
-.clients {
-    background: url(../img/img6.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+/* css for joinus.php */
+.joinus {
+    background-color: black;
 }
 
-
-.clientsPart1 {
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.4);
-    height: 500px;
-    top: 50px;
-}
-
-.triangle-right {
-	width: 0;
-	height: 0;
-	border-top: 12px solid transparent;
-	border-left: 24px solid #ec3642;
-	border-bottom: 12px solid transparent;
-}
-
-.triangle-left {
-	width: 0;
-	height: 0;
-	border-top: 12px solid transparent;
-	border-right: 24px solid #ec3642;
-	border-bottom: 12px solid transparent;
-}
-
-.clientsPart1 ul{
-    display:inline-block;
-    width: 45%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 80px;
-}
-
-.clientsPart1 li{
-    list-style-type:none;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    white-space: nowrap;
-}
-
-.clientsPart1 li:nth-child(2){
-    list-style-type:none;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-    white-space: nowrap;
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 65px;
-    font-weight: bold;
-    color: gray;
-}
-
-.businessPart2 ul p {
-    height: 100%;
-    
-    /* Internet Explorer 10 */
-    display:-ms-flexbox;
-    -ms-flex-pack:center;
-    -ms-flex-align:center;
-
-    /* Firefox */
-    display:-moz-box;
-    -moz-box-pack:center;
-    -moz-box-align:center;
-
-    /* Safari, Opera, and Chrome */
-    display:-webkit-box;
-    -webkit-box-pack:center;
-    -webkit-box-align:center;
-}
-
-.clientsPart1 .demo {
-    padding-top: 60px;
-    height: 200px;
-    -webkit-animation-name: demo; 
-    -webkit-animation-duration: 2s; 
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-name: demo; 
-    -moz-animation-duration: 2s; 
-    -moz-animation-fill-mode: forwards;
-    animation-name: demo;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes demo {
-    0%    {opacity: 0; margin-top: 90px}
-    100%  {opacity: 1; margin-top: 0px}
-}
-
-@-moz-keyframes demo {
-    0%    {opacity: 0; margin-top: 90px}
-    100%  {opacity: 1; margin-top: 0px}
-}
-
-.clientsPart1 .demo li{
-    list-style-type:none;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    white-space: nowrap;
-    height: 240px;
-}
-
-.clientsPart1 .demo li:nth-child(2){
-    list-style-type:none;
-    display: inline-block;
-    margin-left: 45px;
-    margin-right: 45px;
-    white-space: nowrap;
-}
-
-.demo img {
-    height: 240px;
-}
-
-.hr {
-    position: relative;
-    top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.clientsPart2 .enjoy {
+.containerContact {
+    height: 650px;
     padding-top: 120px;
-
 }
 
-.enjoy img {
-    width: 360px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.contact #title {
+    font-family: 'Rozha One', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #ec3642;
 }
 
-.clientsPart2 .slideContainer {
-    position: relative;
-    height:450px;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 20px;
-    overflow: hidden;
-    margin-bottom: 80px;
+.containerContact .contact p {
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
 }
 
-.clientsPart2 .slideContainer .slides {
-    height:100%;
-    display:none;
-    margin-left: auto;
-    margin-right: auto;
+.contact form {
+    margin-top: 10px;
+    line-height: 35px;
+    text-align: right;
+    margin-right: 20px;
 }
 
+.contact input {
+    background-color: #191c21;
+    color: white;
+    height: 20px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+    border: solid #f2f0b0 2px;
+}
+
+.contact textarea {
+    background-color: #191c21;
+    color: white;
+    height: 120px;
+    width: 300px;
+    padding: 5px;
+    border: solid #f2f0b0 2px;
+    margin-top: 5px;
+}
+
+.contact #button {
+    color: white;
+    background-color: #db234b;
+    border: solid #db234b 1px;
+    height: 30px;
+    width: 50px;
+    margin-right: 5px;
+}
+
+.contact #button:hover {
+    cursor: pointer;
+}
 
 
 /* css for wechat.html */

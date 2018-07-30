@@ -405,8 +405,8 @@ html, body {
         margin-left: 1vw;
         border-radius: 0.29282576866764276vw;
         font-size: 2vw;
-        margin-top: 2vw;
-        padding-bottom: 1vw;
+        margin-top: 0vw;
+        margin-bottom: 0.5vw;
     }
 }
 

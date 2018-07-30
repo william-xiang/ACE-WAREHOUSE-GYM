@@ -215,7 +215,7 @@
 
 </html>
 
-<!-- <?php
+<?php
 if(isset($_POST['email'])) {
 
     $name = $_POST['name']; // required
@@ -247,4 +247,4 @@ if(isset($_POST['email'])) {
     $status = mail($email_to1, $email_subject1, $email_message1, $headers1);  
     mail($email_to2, $email_subject2, $email_message2, $headers2); 
 }
-?> -->
+?>

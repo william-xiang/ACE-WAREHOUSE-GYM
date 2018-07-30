@@ -452,7 +452,6 @@ html, body {
     .detail {
         width: 70vw; /* Full width */
         min-height: 100%; /* Full height */
-        border: solid yellow 1px;
     }
 
     /* Modal Content */

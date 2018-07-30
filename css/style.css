@@ -2025,19 +2025,24 @@ li.firstLetter::first-letter{
         height: 6vw;
         font-size: 4vw;
         margin-top: 2vw;
+        padding-left: 1.2vw;
+        padding-right: 1.2vw;
     }
     
     .contact textarea {
         width: 40vw;
-        height: 12vw;
+        height: 20vw;
         font-size: 4vw;
         margin-top: 2vw;
+        padding-left: 1.2vw;
+        padding-right: 1.2vw;
     }
     
     .contact #button {
         width: 15vw;
         height: 6vw;
         font-size: 4vw;
+        margin-top: 5vw;
     }
 }
 

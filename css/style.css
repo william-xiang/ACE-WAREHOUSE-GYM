@@ -135,7 +135,7 @@ li.firstLetter::first-letter{
     }
 
     #navigation a:first-child img {
-        height: 8vw;
+        height: 11vw;
     }
 
     #navigation a.icon {
@@ -143,7 +143,7 @@ li.firstLetter::first-letter{
         float: right;
         margin-top: 1vw;
         margin-left: 15%;
-        font-size: 6vw;
+        font-size: 10vw;
         outline: none;
     }
 
@@ -776,6 +776,10 @@ li.firstLetter::first-letter{
 @media screen and (max-width: 600px) {
     .classescontainer .classesPart1Container .classesPart1 {
         margin-top: 0vw;
+    }
+
+    .classescontainer .classesPart1Container .classesPart1 .headerInvisible{
+        padding-top: 4vw;
     }
 
     .classesPart1 .content {

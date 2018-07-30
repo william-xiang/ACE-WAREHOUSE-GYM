@@ -1435,24 +1435,24 @@ li.firstLetter::first-letter{
 .clientsPart1 {
     position: relative;
     background-color: rgba(0, 0, 0, 0.4);
-    height: 500px;
-    top: 50px;
+    padding-top: 4.5vw;
+    padding-bottom: 8vw;
 }
 
 .triangle-right {
 	width: 0;
 	height: 0;
-	border-top: 12px solid transparent;
-	border-left: 24px solid #ec3642;
-	border-bottom: 12px solid transparent;
+	border-top: 0.88vw solid transparent;
+	border-left: 1.76vw solid #ec3642;
+	border-bottom: 0.88vw solid transparent;
 }
 
 .triangle-left {
 	width: 0;
 	height: 0;
-	border-top: 12px solid transparent;
-	border-right: 24px solid #ec3642;
-	border-bottom: 12px solid transparent;
+	border-top: 0.88vw solid transparent;
+	border-right: 1.76vw solid #ec3642;
+	border-bottom: 0.88vw solid transparent;
 }
 
 .clientsPart1 ul{
@@ -1463,7 +1463,7 @@ li.firstLetter::first-letter{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 80px;
+    padding-top: 5.86vw;
 }
 
 .clientsPart1 li{
@@ -1477,11 +1477,11 @@ li.firstLetter::first-letter{
 .clientsPart1 li:nth-child(2){
     list-style-type:none;
     display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0.37vw;
+    margin-right: 0.37vw;
     white-space: nowrap;
     font-family: 'Maven Pro', sans-serif;
-    font-size: 65px;
+    font-size: 4.76vw;
     font-weight: bold;
     color: gray;
 }
@@ -1506,8 +1506,8 @@ li.firstLetter::first-letter{
 }
 
 .clientsPart1 .demo {
-    padding-top: 60px;
-    height: 200px;
+    padding-top: 4.39vw;
+    height: 14.64vw;
     -webkit-animation-name: demo; 
     -webkit-animation-duration: 2s; 
     -webkit-animation-fill-mode: forwards;
@@ -1521,12 +1521,12 @@ li.firstLetter::first-letter{
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes demo {
-    0%    {opacity: 0; margin-top: 90px}
+    0%    {opacity: 0; margin-top: 6.59vw}
     100%  {opacity: 1; margin-top: 0px}
 }
 
 @-moz-keyframes demo {
-    0%    {opacity: 0; margin-top: 90px}
+    0%    {opacity: 0; margin-top: 6.59vw}
     100%  {opacity: 1; margin-top: 0px}
 }
 
@@ -1536,35 +1536,41 @@ li.firstLetter::first-letter{
     margin-left: auto;
     margin-right: auto;
     white-space: nowrap;
-    height: 240px;
+    height: 17.57vw;
 }
 
 .clientsPart1 .demo li:nth-child(2){
     list-style-type:none;
     display: inline-block;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 3.29vw;
+    margin-right: 3.29vw;
     white-space: nowrap;
 }
 
 .demo img {
-    height: 240px;
+    height: 17.57vw;
 }
 
 .hr {
     position: relative;
-    top: 50px;
     margin-left: auto;
     margin-right: auto;
+    border: none;
+    color: white;
+    background-color: white;
+    height: 0.07vw;
+}
+
+.clientsPart2 {
+    padding-bottom: 6vw;
 }
 
 .clientsPart2 .enjoy {
-    padding-top: 120px;
-
+    padding-top: 6vw;
 }
 
 .enjoy img {
-    width: 360px;
+    width: 26.35vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1572,11 +1578,10 @@ li.firstLetter::first-letter{
 
 .clientsPart2 .slideContainer {
     position: relative;
-    height:450px;
-    width: 800px;
+    height:33vw;
+    width: 58.57vw;
     margin-left: auto;
     margin-right: auto;
-    top: 20px;
     overflow: hidden;
     margin-bottom: 80px;
 }

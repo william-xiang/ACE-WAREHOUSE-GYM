@@ -1947,10 +1947,12 @@ li.firstLetter::first-letter{
     }
     
     .contact {
+        width: 66.5%;
         float: none;
         margin-left: auto;
         margin-right: auto;
-    
+        padding-top: 5vw;
+        text-align: center;
     }
 }
 
@@ -1971,6 +1973,13 @@ li.firstLetter::first-letter{
     line-height: 2.562225475841874vw;
     text-align: right;
     margin-right: 1.4641288433382138vw;
+}
+
+@media screen and (max-width: 600px) {
+    .contact form {
+        text-align: center;
+        margin-right: 0vw;
+    }
 }
 
 .contact input {

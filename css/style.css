@@ -743,6 +743,7 @@ li.firstLetter::first-letter{
 .classescontainer .classesPart1Container .classesPart1 {
     background: url(../img/newgraffitiv3.jpg);
     background-size: cover;
+    background-position: center;
     height: 100%;
     margin-top: 5vw;
     -webkit-transition: 1000ms;
@@ -754,6 +755,7 @@ li.firstLetter::first-letter{
 .classesPart1Container .classesPart1:hover {
     background: url(../img/newgraffitiv2.jpg);
     background-size: cover;
+    background-position: center;
     height: 100%;
     transition-timing-function: ease-in-out;
 }

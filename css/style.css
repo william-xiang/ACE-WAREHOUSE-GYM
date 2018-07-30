@@ -110,6 +110,14 @@ li.firstLetter::first-letter{
     cursor:pointer;
 }
 
+#headerInvisible hr {
+    border-color:gray;
+    background-color: gray;
+    color: gray;
+    border-top: 0.07vw solid gray;
+    border-bottom: solid 0px gray;
+}
+
 @media screen and (max-width: 600px) {
     .header {
         background-color: rgba(0, 0, 0, 0);
@@ -735,11 +743,6 @@ li.firstLetter::first-letter{
 
 
 /* css for classes */
-.classescontainer .classesPart1Container {
-    /* height: 45vw; */
-    /* padding-top: 4vw; */
-}
-
 .classescontainer .classesPart1Container .classesPart1 {
     background: url(../img/newgraffitiv3.jpg);
     background-size: cover;
@@ -1092,7 +1095,6 @@ li.firstLetter::first-letter{
     background-size: cover;
     background-position: center;
     border: solid rgba(0, 0, 0, 0) 0.1px;
-    height: 650px;
     width: 100%;
 }
 

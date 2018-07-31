@@ -1922,6 +1922,12 @@ li.firstLetter::first-letter{
     margin-top: -4.5vw;
 }
 
+@media screen and (max-width: 600px) {
+    .businessPart2 ul .underscore {
+        height: 0.15vw;
+    }
+}
+
 .businessPart2 ul li:first-child  hr {
     margin-top: -6vw;
 }

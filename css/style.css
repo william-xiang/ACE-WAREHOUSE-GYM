@@ -2070,7 +2070,7 @@ li.firstLetter::first-letter{
 
 @media screen and (max-width: 600px) {
     .wechatcontainer .qr_code {
-        margin-top: 20%;
+        margin-top: 15%;
         width: 85vw;
     }
 }

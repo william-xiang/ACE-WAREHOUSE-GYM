@@ -303,7 +303,7 @@ li.firstLetter::first-letter{
 
 .contactBox .wechat {
     width: 2.15vw;
-    margin-top: 1.5vw;
+    margin-top: 1.55vw;
     float: left;
 }
 
@@ -2060,16 +2060,18 @@ li.firstLetter::first-letter{
 /* css for wechat.html */
 .wechatHtml, .wechatindex {
     height: 100%;
+    background: black;
 }
 
-.wechatcontainer img {
-    margin-top: 2.1961932650073206vw;
+.wechatcontainer .qr_code {
+    margin-top: 3vw;
+    width: 32vw;
 }
 
 .wechatcontainer {
     background-color: black;
-    height: 520px;
-    padding-top: 65px;
+    padding-top: 4.758418740849194vw;
+    padding-bottom: 5vw;
     text-align: center;
 }
 

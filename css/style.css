@@ -1596,7 +1596,6 @@ li.firstLetter::first-letter{
 
 /* css for program */
 .programsHtml, .programsindex {
-    height: 100%;
     background-color: black;
 }
 

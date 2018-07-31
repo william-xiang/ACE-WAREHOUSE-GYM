@@ -1819,7 +1819,7 @@ li.firstLetter::first-letter{
 }
 
 .businessPart2 ul p {
-    border: solid yellow 1px;
+    text-align: center;
 }
 
 .businessPart2 li{

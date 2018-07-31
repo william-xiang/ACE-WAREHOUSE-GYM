@@ -1845,6 +1845,12 @@ li.firstLetter::first-letter{
     text-align: center;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    .businessPart2 ul li .bottom p {
+        margin-left: 0.8vw;
+    }
+  }
+
 .businessPart2 ul li .businesstop {
     height: 14.6vw;
     width: 14.6vw;

@@ -1906,6 +1906,11 @@ li.firstLetter::first-letter{
     margin-top: 0.37vw;
 }
 
+.businessPart2 ul br {
+    line-height: 1vw;
+}
+
+
 .businessPart2 ul .underscore {
     color: black;
     border: none;

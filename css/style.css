@@ -1873,25 +1873,6 @@ li.firstLetter::first-letter{
     transition: 400ms;
 }
 
-.businessPart2 ul p {
-    height: 100%;
-    
-    /* Internet Explorer 10 */
-    display:-ms-flexbox;
-    -ms-flex-pack:center;
-    -ms-flex-align:center;
-
-    /* Firefox */
-    display:-moz-box;
-    -moz-box-pack:center;
-    -moz-box-align:center;
-
-    /* Safari, Opera, and Chrome */
-    display:-webkit-box;
-    -webkit-box-pack:center;
-    -webkit-box-align:center;
-}
-
 .businessPart2 ul .chn {
     font-family: 'Maven Pro', sans-serif;
     font-size: 2.93vw;
@@ -1924,7 +1905,7 @@ li.firstLetter::first-letter{
 
 @media screen and (max-width: 600px) {
     .businessPart2 ul .underscore {
-        height: 0.15vw;
+        height: 0.2vw;
     }
 }
 

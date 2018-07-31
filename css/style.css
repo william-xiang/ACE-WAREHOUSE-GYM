@@ -1818,6 +1818,10 @@ li.firstLetter::first-letter{
     padding-top: 10.25vw;
 }
 
+.businessPart2 ul p {
+    border: solid yellow 1px;
+}
+
 .businessPart2 li{
     list-style-type:none;
     display: inline-block;

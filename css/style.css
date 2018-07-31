@@ -1903,14 +1903,22 @@ li.firstLetter::first-letter{
     margin-top: -4.5vw;
 }
 
-@media screen and (max-width: 600px) {
-    .businessPart2 ul .underscore {
-        height: 0.2vw;
-    }
-}
 
 .businessPart2 ul li:first-child  hr {
     margin-top: -6vw;
+}
+
+
+@media screen and (max-width: 600px) {
+    .businessPart2 ul .underscore {
+        height: 0.2vw;
+        margin-top: -5vw;
+
+    }
+    
+    .businessPart2 ul li:first-child  hr {
+        margin-top: -6.2vw;
+    }
 }
 
 

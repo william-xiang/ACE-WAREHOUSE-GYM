@@ -2068,6 +2068,13 @@ li.firstLetter::first-letter{
     width: 32vw;
 }
 
+@media screen and (max-width: 600px) {
+    .wechatcontainer .qr_code {
+        margin-top: 45%;
+        width: 85vw;
+    }
+}
+
 .wechatcontainer {
     background-color: black;
     padding-top: 4.758418740849194vw;

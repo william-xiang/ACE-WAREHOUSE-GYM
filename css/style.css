@@ -1908,7 +1908,19 @@ li.firstLetter::first-letter{
 
 .businessPart2 ul .underscore {
     color: black;
+    border: none;
+    background-color: black;
+    width: 9.5vw;
+    height: 0.07vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4.5vw;
 }
+
+.businessPart2 ul li:first-child  hr {
+    margin-top: -6vw;
+}
+
 
 .businessPart2 ul .hide {
     visibility: hidden;

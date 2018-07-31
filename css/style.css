@@ -1901,7 +1901,7 @@ li.firstLetter::first-letter{
     font-family: 'Maven Pro', sans-serif;
     display: inline-block;
     font-size: 1.1vw;
-    letter-spacing: 2.5px;
+    letter-spacing: 0.14641288433382138vw;
     font-weight: bold;
     margin-top: 0.37vw;
 }

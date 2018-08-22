@@ -7,8 +7,8 @@
   <li>Server Side: PHP</li>
 </ul>
 
-![Screenshot](1.png)
-![Screenshot](2.png)
-![Screenshot](3.png)
-![Screenshot](4.jpg)
-![Screenshot](5.jpg)
+<img src="1.png" width="80%">
+<img src="2.png" width="80%">
+<img src="3.png" width="80%">
+<img src="4.jpg" width="30%">
+<img src="5.jpg" width="30%">
